@@ -15,5 +15,5 @@ Relatar aqui possíveis obstáculos observados durante a pesquisa para implement
 ## Protótipo
 ![Exemplo do mapeamento de aglomerações](exemplo_prototipo.png)
 
-#Exemplo de sugestão:
+# Exemplo de sugestão:
 - Adicionar um métrica de risco (baixa, média ou alta) a ser exibida para o usuário. 
