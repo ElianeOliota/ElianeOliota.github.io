@@ -26,7 +26,7 @@ html {
 
 body {
     background-color: #fff;
-    background-image: url(img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-repeat: no-repeat;
 }
 
@@ -39,7 +39,7 @@ body {
     width: 293px;
     height: 133px;
     /* background-color: rgb(62, 139, 139); */
-    background-image: url(img/logo_login.png);
+    background-image: url(/img/logo_login.png);
     z-index: 5;
 }
 
@@ -48,7 +48,7 @@ body {
     /* display: none; */
     position: relative;
     background-color: rgba(252, 249, 249, 0);
-    background-image: url(img/bg_login.png);
+    background-image: url(/img/bg_login.png);
     margin: auto;
     top: 220px;
     width: 965px;
