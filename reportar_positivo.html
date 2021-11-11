@@ -85,145 +85,79 @@
 
     <div class="row">
       <div class="col-12">
-        <div class="card text-center">
+        <div class="card">
           <div class="card-header">
             <h3>
-
-              Painel Coronavírus - Brasil
+              <img src="/img/reportar_positivo.png" class="rounded-circle" width="32px">
+              Reportar caso positivo
             </h3>
           </div>
           <div class="card-body">
 
-            <div class="row">
-              <div class="col-4">
-                <div class="card ">
-                  <div class="card-header alert-success">
+            <form id="formulario">
+              <div class="row">
 
-                    <h2>Casos recuperados</h2>
-                  </div>
-                  <div class="card-body">
-                    <h3 id="recuperados">valor</h3>
+                <div class="col-4">
+
+                  <div class="card">
+                    <div class="card-header">
+                      <h4>
+                        Formulário
+                      </h4>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <label for="data">Data do teste</label>
+                          <input type="date" class="form-control" id="data" placeholder="Data do teste" required>
+
+                        </div>
+                        <div class="col">
+                          <label for="dias">Monitorar por:</label>
+                          <input type="number" class="form-control" id="dias" min="5" required
+                            placeholder="Quantidade de dias">
+                        </div>
+                      </div>
+
+                      <br><br>
+                      <div class="row">
+                        <div class="col"></div>
+                        <button type="button" id="cancelar" class="btn btn-danger form-control col-3">Cancelar</button>
+                        <button type="submit" class="btn btn-primary form-control col-3">Enviar</button>
+
+                        <div class="col"></div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+
+                      Ao reportar o caso positivo, a localização será compartilhada de forma anônima, por alguns dias. Durante esse
+                      período os
+                      outros usuários receberão alertas para evitar aproximação.
+
+                    </div>
                   </div>
                 </div>
-              </div>
 
-
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-header alert-warning">
-
-                    <h2>Casos confirmados</h2>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <iframe width="100%" height="370px"
+                        src="https://maps.google.com/maps?q=proway&t=&z=21&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>
                   </div>
-                  <div class="card-body">
-                    <h3 id="confirmados">valor</h3>
-                  </div>
+
                 </div>
               </div>
+            </form>
 
-
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-header alert-danger">
-
-                    <h2>Óbitos confirmados</h2>
-                  </div>
-                  <div class="card-body">
-                    <h3 id="obitos">valor</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
+           
 
           </div>
+           
         </div>
       </div>
     </div>
-
-    <br><br>
-    <div class="row">
-      <div class="col-4">
-
-        <div class="card text-center">
-          <div class="card-header">
-            <h3>
-
-              Dicas de prevenção
-            </h3>
-          </div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col">
-                <div class="card ">
-                  <div class="card-header alert-info ">
-                    Lavar as mãos
-
-                  </div>
-                  <div class="card-body ">
-                    <img src="/img/wash_your_hands.png" width="64px">
-                    <br>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card">
-                  <div class="card-header ">
-                    Uso do álcool
-
-                  </div>
-                  <div class="card-body ">
-                    <img src="/img/antibacterial_gel.png" class="rounded-circle" width="64px">
-                    <br>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-            <br><br>
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <div class="card-header alert-warning">
-                    Distanciamento social
-
-                  </div>
-                  <div class="card-body">
-                    <img src="/img/keep_distance.png" width="64px">
-                    <br>
-
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card">
-
-                  <div class="card-header alert-success">
-                    Usar máscara
-
-                  </div>
-                  <div class="card-body ">
-
-                    <img src="/img/mask.png" width="64px">
-                    <br>
-
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-
-
-          </div>
-
-        </div>
-      </div>
- 
-    </div>
-
 
   </div>
 
@@ -231,36 +165,24 @@
 </body>
 
 <script>
-  let usuario = JSON.parse(localStorage.getItem("usuario"))
-  console.log(usuario);
-  //$("#nome").text(usuario.email)
 
-
-
-
-  $.ajax(
-    {
-      type: 'get',
-      url: 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalGeralApi',
-      success: (response) => {
-        console.log(response);
-
-        $("#confirmados").text(formatarBigDecimal(response.confirmados.total))
-        $("#recuperados").text(formatarBigDecimal(response.confirmados.recuperados))
-        $("#obitos").text(formatarBigDecimal(response.obitos.total))
-
-      },
-      error: () => {
-
-      }
+  $("#formulario").on(
+    'submit',
+    (e) => {
+      e.preventDefault();
+      alert("Caso positivo, reportado. Obrigado por contribuir")
+      window.history.go(-1); 
+      return false;
     }
-
   );
 
-  function formatarBigDecimal(valor) {
-    return valor.replace(/(.)(?=(\d{3})+$)/g, '$1,')
-  }
-
+  $("#cancelar").on(
+    "click",
+    ()=>{
+      window.history.go(-1); 
+      return false;
+    }
+    )
 </script>
 
 
