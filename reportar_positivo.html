@@ -170,7 +170,9 @@
     'submit',
     (e) => {
       e.preventDefault();
-      alert("opa")
+      alert("Caso positivo, reportado. Obrigado por contribuir")
+      window.history.go(-1); 
+      return false;
     }
   );
 
