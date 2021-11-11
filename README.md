@@ -36,7 +36,7 @@ Definir o papel de cada membro de acordo com o conhecimento individual
 
 Número| Membro| Discord | Papel
 ------|---------|-------|------
-01|	Membro01|	Membro01#1111|	A definir
+01|	Benlove Anelus|	2beloved#9121|	A definir
 02|	Luan Lordello Guimarães Lima|	Luan Lordello#1751|	A definir
 03|	Eliane Henrique Oliota|	Eliane Oliota#5537|	A definir
 04|	Lucas Panini Valcanaia|	Lucas P. Valcanaia#1158|	A definir
