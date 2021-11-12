@@ -47,8 +47,8 @@ Foi implementado com Html , css, e JS(Jquery e Ajax) para viabilizar o consumo d
 
 ## Protótipo tela principal
 
-![This is a alt text.](/img/principal.png "Tela principal.")
+![Tela implementada.](/img/tela_principal_menu_prevencao_reportar_caso_positivo.png "Tela principal.")
 
 ## Ações implementadas no menu
 
-![This is a alt text.](/img/tela_principal_menu.png "Tela principal - menu.")
+![Tela implementada.](/img/tela_principal_menu.png "Tela principal - menu.")
