@@ -18,7 +18,7 @@
 /* CONFIGURAÇÕES PARA QUE A PÁGINA DESLIZE SUAVEMENTE  -- ABAIXO -- */
 html {
     scroll-behavior: smooth;
-    transition: 5s;
+    /* transition: 5s; */
 }
 /* CONFIGURAÇÕES PARA QUE A PÁGINA DESLIZE SUAVEMENTE  -- ACIMA -- */
 /* ------------------------------------------------------------------- */
@@ -66,7 +66,7 @@ form {
 .col {
     border-radius: 30px;
     /* background-color: rgb(160, 154, 154); */
-    transition: 4s;
+    /* transition: 4s; */
 }
 
 #login-page {
@@ -75,7 +75,7 @@ form {
     width: 375px;
     margin: auto;
     z-index: 20;
-    transition: 4s;
+    /* transition: 4s; */
 }
 
 /* ---------------------------- CARREGAMENTO DA PÁGINA ----------------------------- */
@@ -152,7 +152,30 @@ form {
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 /* -------------------------- FIM CARREGAMENTO PÁGINA --------------------------- */
 
+#click {
+    /* display: block; */
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 38px;
+    top: 20px; /* centralizar a parte interna do preload (onde fica a animação)*/
+    background-color: #26a69a;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 4px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 2px;
+    /* box-shadow: 0px 10px 20px 0px #000; */
+    margin: auto;
+}
 
+#click:hover {
+    background-color: #5de4d9;
+    /* color: #000; */
+    
+    transition: 1s;
+}
 
 @media (max-width: 990px){
 
