@@ -64,6 +64,10 @@ $("#login").on(                          // Para o elemento com id login
 
 Foi implementado com Html , css, e JS para viabilizar a execução de validação do acesso a aplicação . 
 
-## Protótipo
+## Protótipo tela de login
 
-![This is a alt text.](/img/login.png "This is a sample image.")
+![This is a alt text.](/img/login.png "Tela de login.")
+
+## Protótipo tela principal
+
+![This is a alt text.](/img/principal.png "Tela principal.")
