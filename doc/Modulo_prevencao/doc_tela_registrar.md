@@ -1,96 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+# Documentação referente à funcionalidade "REGISTRAR" do módulo "PREVENÇÃO A COVID-19"
 
-<head>
-  <meta charset="UTF-8">
-  <title>APP</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+## Descrição
 
-  <link rel="stylesheet" href="./style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+Essa funcionalidade tem por objetivo cadastrar um usuário na aplicação 'Block Covid -19 ' que será validado na tela login.html e para proteger o acesso direto as paginas ao não efetuar o login .
 
-</head>
+## Detalhes técnicos
 
-<body>
-  <div id="preloader">
-    <div class="inner">
-      <!-- HTML DA ANIMAÇÃO -->
-      <div class="bolas">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <span id="txt_preloader">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aguarde </span><br>
-      <span id="txt_preloader">Carregando APP !... </span>
-    </div>
-  </div>
-  <!-- fim do preloader -->
+É realizada um ação no evento de click do elemento com o ID registrar.
 
+A ação obtem a lista salva no localStorage do navegador para percorrer e comparar com o email informado no formulário para validar cadastro repetidos, caso encontre é informado que já existe um usuário com esse email
 
+Caso não encontre o usuario é salvo na lista e o mesmo usuario é salvo em sessão e direcionado a página 'principal.html' que representa a área logada, onde o usuário salvo em sessão será utilizado.
 
-  <div id="total_main">
+Segue o código fonte comentado
 
-    <div id="logo">
-
-    </div>
-
-
-
-
-
-    <div id="login-page" class="row">
-      <div class="col s12 z-depth-6 card-panel">
-        <form class="login-form">
-          <div class="row">
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <i class="material-icons prefix">person_outline</i>
-              <input class="validate" id="name" type="text">
-              <label for="name" data-error="informe um nome" data-success="Nome válido">Nome</label>
-            </div>
-            <div class="input-field col s12">
-              <i class="material-icons prefix">mail_outline</i>
-              <input class="validate" id="email" type="email">
-              <label for="email" data-error="informe um email válido" data-success="E-mail válido">Email</label>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">lock_outline</i>
-                <input id="password" type="password">
-                <label for="password">Senha</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 center">
-
-                <button type="button" id="registrar" class="btn btn-info form-control">Registrar e Entrar</button>
-              </div>
-              <div class="input-field col s12">
-                <a href="/src/login.html">Fazer login</a>
-              </div>
-            </div>
-          </div>
-        </form>
-
-      </div>
-
-    </div>
-
-
-
-
-
-
-
-
-  </div>
-
-  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script>
-  <script>
+``` javascript
     localStorage.removeItem('usuario')//sempre limpa o usuario do localStorage para proteger o login contra acesso direto a página principal
 
 
@@ -138,9 +62,16 @@
         } 
       }
     );
-  </script>
+```
 
+## implementado
 
-</body>
+Foi implementado com Html , css, e JS para viabilizar a execução de validação do acesso a duplicado e para salvar e manter a lista de usuários no localStorage.
 
-</html>
+## Protótipo tela de login
+
+![Tela implementada.](/img/registrar.png "Tela de registrar.")
+
+## Protótipo tela principal
+
+![Tela implementada.](/img/principal.png "Tela principal.")

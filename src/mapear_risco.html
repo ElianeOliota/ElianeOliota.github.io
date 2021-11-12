@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link"  href="/src/principal.html">Home <span class="sr-only"></span></a>
+          <a class="nav-link" href="/src/principal.html">Home <span class="sr-only"></span></a>
         </li>
 
         <li class="nav-item dropdown">
@@ -98,34 +98,35 @@
                 TODO: @Eliane, incluir um mapa aqui
               </div>
             </div>
-          
+
 
           </div>
-           
+
         </div>
       </div>
     </div>
 
   </div>
 
-<script>
+  <script src="/src/seguranca.js"></script>
+  <script>
 
-  $("#formulario").on(
-    'submit',
-    (e) => {
-      e.preventDefault();
-      alert("opa")
-    }
-  );
+    $("#formulario").on(
+      'submit',
+      (e) => {
+        e.preventDefault();
+        alert("opa")
+      }
+    );
 
-  $("#cancelar").on(
-    "click",
-    ()=>{
-      window.history.go(-1); 
-      return false;
-    }
+    $("#cancelar").on(
+      "click",
+      () => {
+        window.history.go(-1);
+        return false;
+      }
     )
-</script>
+  </script>
 
 
 </body>

@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link"  href="/src/principal.html">Home <span class="sr-only"></span></a>
+          <a class="nav-link" href="/src/principal.html">Home <span class="sr-only"></span></a>
         </li>
 
         <li class="nav-item dropdown">
@@ -130,7 +130,8 @@
                     </div>
                     <div class="card-footer">
 
-                      Ao reportar o caso positivo, a localização será compartilhada de forma anônima, por alguns dias. Durante esse
+                      Ao reportar o caso positivo, a localização será compartilhada de forma anônima, por alguns dias.
+                      Durante esse
                       período os
                       outros usuários receberão alertas para evitar aproximação.
 
@@ -151,34 +152,36 @@
               </div>
             </form>
 
-           
+
 
           </div>
-           
+
         </div>
       </div>
     </div>
 
   </div>
-<script>
-  $("#formulario").on(         //para o elemento com ID 'formulario'
-    'submit',                  //no evento de submit disparado pelo button com type submit
-    (e) => {                   //faça o que estiver nessa função (e) é o parametro de evento
-      e.preventDefault();      //removendo caracteristica padrão do submit que é dar um refresh em tela
-      alert("Caso positivo, reportado. Obrigado por contribuir") // mensagem em tela para o usuário
-      window.history.go(-1);   //comando para voltar a página anterior
-      return false;            
-    }
-  );
 
-  $("#cancelar").on(          //para o elemento com ID 'cancelar'
-    "click",                  //no evento de click
-    ()=>{                     //faça o que estiver nessa função
-      window.history.go(-1);  //retornar a página anterior
-      return false;
-    }
+  <script src="/src/seguranca.js"></script>
+  <script>
+    $("#formulario").on(         //para o elemento com ID 'formulario'
+      'submit',                  //no evento de submit disparado pelo button com type submit
+      (e) => {                   //faça o que estiver nessa função (e) é o parametro de evento
+        e.preventDefault();      //removendo caracteristica padrão do submit que é dar um refresh em tela
+        alert("Caso positivo, reportado. Obrigado por contribuir") // mensagem em tela para o usuário
+        window.history.go(-1);   //comando para voltar a página anterior
+        return false;
+      }
+    );
+
+    $("#cancelar").on(          //para o elemento com ID 'cancelar'
+      "click",                  //no evento de click
+      () => {                     //faça o que estiver nessa função
+        window.history.go(-1);  //retornar a página anterior
+        return false;
+      }
     )
-</script>
+  </script>
 
 
 </body>
