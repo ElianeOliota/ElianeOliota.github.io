@@ -95,7 +95,8 @@ Número| Membro| Discord | Papel
 >   - Números atualizados da pandemia
 >   - Dicas simples de prevenção a covid
 >   - Proteção contra acesso sem login
->   - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_principal.md)
+>
+> [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_principal.md)
 
 ### A tela inicial está dividida em módulos no menu superior
 
