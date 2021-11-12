@@ -6,7 +6,8 @@ Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplica�
 
 ## Detalhes técnicos
 
-```$("#login").on(                            // Para o elemento com id login
+``` javascript
+$("#login").on(                            // Para o elemento com id login
       'click',                             // No evento de click 
       () => {                             // faça o que tiver nessa função
         let logins = JSON.parse(
