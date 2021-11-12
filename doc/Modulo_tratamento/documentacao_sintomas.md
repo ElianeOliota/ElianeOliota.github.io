@@ -12,7 +12,4 @@ Relatar aqui possíveis obstáculos observados durante a pesquisa para implement
 - Performance de consulta
 
 ## Protótipo
-![Exemplo do mapeamento de aglomerações](exemplo_prototipo.png)
-
-# Exemplo de sugestão:
-- Adicionar um métrica de risco (baixa, média ou alta) a ser exibida para o usuário. 
+![Exemplo das telas de sintomas](sintomas_calculo.png)(sintomas_leve.png)(sintomas_moderado.png)(sintomas_grave.png)
