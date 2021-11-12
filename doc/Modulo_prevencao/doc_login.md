@@ -6,10 +6,18 @@ Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplica�
 
 ## Detalhes técnicos
 
+É realizada um ação no evento de click do elemento com o ID login.
+
+A ação obtem a lista de usuários salva na tela 'registar.html' para percorrer e comparar com o email e senha informados no formulário, caso encontre é direcionado a página 'principal.html' que representa a área logada.
+
+Quando não localiza o usuario, um alerta é emitido solicitando a revisão dos dados informados
+
+Segue o código fonte comentado
+
 ``` javascript
-$("#login").on(                            // Para o elemento com id login
-      'click',                             // No evento de click 
-      () => {                             // faça o que tiver nessa função
+$("#login").on(                          // Para o elemento com id login
+      'click',                           // No evento de click 
+      () => {                            // faça o que tiver nessa função
         let logins = JSON.parse(
           localStorage.getItem('logins') // recuperar do localStorage o conteúdo que está salvo no item chamado 'logins'
         )                                // converte o valor de texto para objeto, utilizando JSON.parse
@@ -21,7 +29,7 @@ $("#login").on(                            // Para o elemento com id login
           email: $("#email").val(),      // para o elemento com id email obter o valor que está na atributo VALUE
           password: $("#password").val() // para o elemento com id password obter o valor que está na atributo VALUE
         }
-        window.location = "/src/principal.html"    // Nesse momento o login está seguindo sem validação para facilitar o desenvolvimento do projeto
+        window.location = "/src/principal.html"// Nesse momento o login está seguindo sem validação para facilitar o desenvolvimento do projeto
         return                                 // Encerrando a função por aqui para evitar a validação que está implementada nas linhas abaixo
 
 
