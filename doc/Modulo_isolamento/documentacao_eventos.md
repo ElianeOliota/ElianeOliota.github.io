@@ -30,7 +30,8 @@ Uma rotina de código seria construída para informar ao usário, ao clicar no P
     - Onde o evento acontecerá?
     - Qual horário de início e término?
     - Tipo de evento realizado.
-    - Se o evento é presencial ou online.
+    
+
 
 ### Protótipos
 Tela 01
