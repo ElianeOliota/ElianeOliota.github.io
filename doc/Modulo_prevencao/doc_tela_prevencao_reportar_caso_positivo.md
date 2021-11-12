@@ -16,20 +16,20 @@ Caso selecione a opção cancelar, será direcionado para tela anterior
 Segue o código fonte comentado
 
 ``` javascript
-  $("#formulario").on(
-    'submit',
-    (e) => {
-      e.preventDefault();
-      alert("Caso positivo, reportado. Obrigado por contribuir")
-      window.history.go(-1); 
-      return false;
+  $("#formulario").on(         //para o elemento com ID 'formulario'
+    'submit',                  //no evento de submit disparado pelo button com type submit
+    (e) => {                   //faça o que estiver nessa função (e) é o parametro de evento
+      e.preventDefault();      //removendo caracteristica padrão do submit que é dar um refresh em tela
+      alert("Caso positivo, reportado. Obrigado por contribuir") // mensagem em tela para o usuário
+      window.history.go(-1);   //comando para voltar a página anterior
+      return false;            
     }
   );
 
-  $("#cancelar").on(
-    "click",
-    ()=>{
-      window.history.go(-1); 
+  $("#cancelar").on(          //para o elemento com ID 'cancelar'
+    "click",                  //no evento de click
+    ()=>{                     //faça o que estiver nessa função
+      window.history.go(-1);  //retornar a página anterior
       return false;
     }
     )
@@ -41,4 +41,4 @@ Foi implementado com Html , css, e JS para viabilizar a captura de informações
 
 ## Protótipo tela do menu prevenção - Reportar caso positivo
 
-![Tela implementada.](/img/tela_principal_menu_prevencao_reportar_caso_positivo.png "Tela reportar caso positivo.") 
+![Tela implementada.](/img/tela_principal_menu_prevencao_reportar_caso_positivo.png "Tela reportar caso positivo.")
