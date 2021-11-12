@@ -1,16 +1,8 @@
-# Documentação referente à funcionalidade "TELA PRINCIPAL" do módulo "PREVENÇÃO A COVID-19"
+# Documentação referente à funcionalidade "TELA REPORTAR CASO POSITIVO" do módulo "PREVENÇÃO A COVID-19"
 
 ## Descrição
 
 Essa funcionalidade tem por objetivo capturar eventos de contaminação para reportar a comunidade de usuários que evitem aquela localização para prevenir sobre o risco de contágio .
-
-- Menu superior com módulos
-  - Prevenção
-  - Tratamento
-  - Isolamento
-- Painel Coronavírus - Brasil
-- Dicas de prevenção
-- Sair (deslogar o usuário)
 
 ## Detalhes técnicos
 
