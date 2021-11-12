@@ -12,4 +12,7 @@ Relatar aqui possíveis obstáculos observados durante a pesquisa para implement
 - Performance de consulta
 
 ## Protótipo
-![Exemplo das telas de sintomas](sintomas_calculo.png)(sintomas_leve.png)(sintomas_moderado.png)(sintomas_grave.png)
+![Exemplo das telas de sintomas](sintomas_calculo.png)
+![Exemplo sintomas leves](sintomas_leve.png)
+![Exemplo sintomas moderados](sintomas_moderado.png)
+![Exemplo sintomas graves](sintomas_grave.png)
