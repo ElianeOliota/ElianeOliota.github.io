@@ -51,13 +51,13 @@ Número| Membro| Discord | Papel
 
 ### Entrar
 
-  Capturar email e senha para autenticar a entrada
-
-  Guardar dados do usuário logado em sessão
-
-  Alertar caso dê erro ao entrar
-
-  [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_login.md)
+>Capturar email e senha para autenticar a entrada
+>
+>Guardar dados do usuário logado em sessão
+>
+>Alertar caso dê erro ao entrar
+>
+>[Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_login.md)
 
 ### Registrar
 
