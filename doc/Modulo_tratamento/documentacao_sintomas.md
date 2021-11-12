@@ -5,6 +5,10 @@
 
 * Este processo foi implementado com a finalidade de instruir de maneira prática e com linguagem simples o usuário, sendo os processos recomendados a se seguir em um caso que há chances de ser sintomas de covid. Há também uma chance em analisar dados dos usuários, afim de que possa haver um controle sobre quantas pessoas tem chances de ter covid, por exemplo.
 
+* Fontes da onde foram tiradas as informações:
+  * OMS: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/coronavirus-disease-covid-19#:~:text=treatment
+  * Harvard: https://www.health.harvard.edu/diseases-and-conditions/treatments-for-covid-19
+
 ## Detalhes técnicos:
 * Essa funcionalidade poderá ser implementada com HTML, CSS e JavaScript. Com consulta a API do Google Maps.
 A busca pelos postos de saúde ou hospitais será feita utilizando a geolocalização do usuário. 
