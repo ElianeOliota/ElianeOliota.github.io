@@ -20,7 +20,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark ">
-    <a class="navbar-brand" href="/principal.html">
+    <a class="navbar-brand" href="/src/principal.html">
       <img src="/img/mask.png" width="30" height="30" class="d-inline-block align-top" alt="">
       Block Covid-19
     </a>
@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link"  href="/principal.html">Home <span class="sr-only"></span></a>
+          <a class="nav-link"  href="/src/principal.html">Home <span class="sr-only"></span></a>
         </li>
 
         <li class="nav-item dropdown">
@@ -44,11 +44,11 @@
             <a class="dropdown-item" href="#">
               <img src="/img/vacina.png" class="rounded-circle" width="32px">
               Cadastrar carteira de vacina</a>
-            <a class="dropdown-item" href="/reportar_positivo.html">
+            <a class="dropdown-item" href="/src/reportar_positivo.html">
               <img src="/img/reportar_positivo.png" class="rounded-circle" width="32px">
               Reportar caso positivo</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/mapear_risco.html">
+            <a class="dropdown-item" href="/src/mapear_risco.html">
 
               <img src="/img/locations.png" class="rounded-circle" width="32px">
               Mapear riscos nas proximidades</a>
@@ -75,7 +75,7 @@
 
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <a class="nav-link text-white" href="/login.html">Sair</a>
+        <a class="nav-link text-white" href="/src/login.html">Sair</a>
       </form>
     </div>
   </nav>
@@ -88,17 +88,70 @@
         <div class="card">
           <div class="card-header">
             <h3>
-              <img src="/img/locations.png" class="rounded-circle" width="32px">
-              Mapear riscos nas proximidades
+              <img src="/img/reportar_positivo.png" class="rounded-circle" width="32px">
+              Reportar caso positivo
             </h3>
           </div>
           <div class="card-body">
-            <div class="card alert-danger">
-              <div class="card-body">
-                TODO: @Eliane, incluir um mapa aqui
+
+            <form id="formulario">
+              <div class="row">
+
+                <div class="col-4">
+
+                  <div class="card">
+                    <div class="card-header">
+                      <h4>
+                        Formulário
+                      </h4>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col">
+                          <label for="data">Data do teste</label>
+                          <input type="date" class="form-control" id="data" placeholder="Data do teste" required>
+
+                        </div>
+                        <div class="col">
+                          <label for="dias">Monitorar por:</label>
+                          <input type="number" class="form-control" id="dias" min="5" required
+                            placeholder="Quantidade de dias">
+                        </div>
+                      </div>
+
+                      <br><br>
+                      <div class="row">
+                        <div class="col"></div>
+                        <button type="button" id="cancelar" class="btn btn-danger form-control col-3">Cancelar</button>
+                        <button type="submit" class="btn btn-primary form-control col-3">Enviar</button>
+
+                        <div class="col"></div>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+
+                      Ao reportar o caso positivo, a localização será compartilhada de forma anônima, por alguns dias. Durante esse
+                      período os
+                      outros usuários receberão alertas para evitar aproximação.
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <iframe width="100%" height="370px"
+                        src="https://maps.google.com/maps?q=proway&t=&z=21&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+
+                </div>
               </div>
-            </div>
-          
+            </form>
+
+           
 
           </div>
            
@@ -107,17 +160,15 @@
     </div>
 
   </div>
-
-
-</body>
-
 <script>
 
   $("#formulario").on(
     'submit',
     (e) => {
       e.preventDefault();
-      alert("opa")
+      alert("Caso positivo, reportado. Obrigado por contribuir")
+      window.history.go(-1); 
+      return false;
     }
   );
 
