@@ -27,7 +27,7 @@ html {
 body {
     background-color: #fff;
     background-image: url(/img/background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
 
 #logo {
