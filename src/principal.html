@@ -229,11 +229,8 @@
 
 <script>
   let usuario = JSON.parse(localStorage.getItem("usuario"))
-  console.log(usuario);
-  //$("#nome").text(usuario.email)
-
-
-
+  console.log(usuario); 
+ 
 
   $.ajax(
     {
@@ -247,11 +244,9 @@
         $("#obitos").text(formatarBigDecimal(response.obitos.total))
 
       },
-      error: () => {
-
+      error: () => { 
       }
-    }
-
+    } 
   );
 
   function formatarBigDecimal(valor) {
