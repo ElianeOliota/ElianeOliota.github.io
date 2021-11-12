@@ -7,7 +7,5 @@ Essa funcionalidade poderá ser implementada com HTML, CSS e JavaScript. Com con
 A busca pelos postos de saúde ou hospitais será feita utilizando a geolocalização do usuário. 
 
 ## Protótipo
-![Exemplo das telas de sintomas](sintomas_calculo.png)
-![Exemplo sintomas leves](sintomas_leve.png)
-![Exemplo sintomas moderados](sintomas_moderado.png)
-![Exemplo sintomas graves](sintomas_grave.png)
+![Exemplo quadro de informações](quadro_informações.png)
+
