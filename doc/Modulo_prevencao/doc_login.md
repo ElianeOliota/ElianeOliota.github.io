@@ -1,13 +1,12 @@
 # Documentação referente à funcionalidade "LOGIN" do módulo "PREVENÇÃO A COVID-19"
 
-## Descrição:
+## Descrição
 
-Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplicação 'Block Covid -19 'com base nos cadastros realizados na tela regitrar.html .
+Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplicação 'Block Covid -19 'com base nos cadastros realizados na tela registrar.html .
 
-#Detalhes técnicos:
+## Detalhes técnicos
 
-```
- $("#login").on(                            // Para o elemento com id login
+```$("#login").on(                            // Para o elemento com id login
       'click',                             // No evento de click 
       () => {                             // faça o que tiver nessa função
         let logins = JSON.parse(
@@ -52,10 +51,9 @@ Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplica�
     );
 ```
 
-## implementado:
+## implementado
 
 Foi implementado com Html , css, e JS para viabilizar a execução de validação do acesso a aplicação . 
-
 
 ## Protótipo
 
