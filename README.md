@@ -61,11 +61,13 @@ Número| Membro| Discord | Papel
 
 ### Registrar
 
->Capturar email e senha para autenticar o cadastro
+>Capturar nome, email e senha para autenticar o cadastro
 >
 >Guardar dados do usuário logado em sessão
 >
 >Alertar caso encontre outro usuario com mesmo e-mail
+>
+>[Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_registrar.md)
 
 ### Sair
 
@@ -92,6 +94,7 @@ Número| Membro| Discord | Papel
 >- Conteudo principal
 >   - Números atualizados da pandemia
 >   - Dicas simples de prevenção a covid
+>   - Proteção contra acesso sem login
 >   - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_principal.md)
 
 ### A tela inicial está dividida em módulos no menu superior
