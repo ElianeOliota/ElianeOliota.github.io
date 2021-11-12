@@ -61,59 +61,63 @@ Número| Membro| Discord | Papel
 
 ### Registrar
 
-Capturar email e senha para autenticar o cadastro
-
-Guardar dados do usuário logado em sessão
-
-Alertar caso encontre outro usuario com mesmo e-mail
+>Capturar email e senha para autenticar o cadastro
+>
+>Guardar dados do usuário logado em sessão
+>
+>Alertar caso encontre outro usuario com mesmo e-mail
 
 ### Sair
 
-Retornar ao login
-
-Remover dados do usuário da sessão
+>Retornar ao login
+>
+>Remover dados do usuário da sessão
 
 ### Página Principal
 
-Tela inicial que agrega as principais funções e resumo de informações importantes como:
-
-- Menu superior
-  - Prevenção
-  - Tratamento
-  - Isolamento
-  - Botão de sair
-
-- Menu lateral
-  - Inicio
-  - Reportar contaminação
-  - Cadastrar registro de vacina
-  - Ver mapa de exposição
-
-- Conteudo principal
-  - Números atualizados da pandemia
-  - Dicas simples de prevenção a covid
-  - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_principal.md)
+>Tela inicial que agrega as principais funções e resumo de informações importantes como:
+>
+>- Menu superior
+>   - Prevenção
+>   - Tratamento
+>   - Isolamento
+>   - Botão de sair
+>
+>- Menu lateral
+>   - Inicio
+>   - Reportar contaminação
+>   - Cadastrar registro de vacina
+>   - Ver mapa de exposição
+>
+>- Conteudo principal
+>   - Números atualizados da pandemia
+>   - Dicas simples de prevenção a covid
+>   - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_principal.md)
 
 ### A tela inicial está dividida em módulos no menu superior
 
 ## Prevenção
-
-- ### Cadastrar carteira de vacinação
-
-  - O usuário ao cadastrar a carteira de vacinação, poderá utilizar a aplicação como passaporte imunização
-  - [Ver detalhes técnicos](https://elianeoliota.github.io)
-
-- ### Reportar exposição
-
-  - Quando o usuário for contaminado, poderá informar para monitorar sua localização de forma anônima durante a quarentena
-  - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
-
-- ### Mapear risco atual
-
-  - Verificar se nas proximidades há risco de contágio com base nas localizações compartilhadas.
-  - [Ver detalhes técnicos](https://elianeoliota.github.io)
+>
+>- ### Cadastrar carteira de vacinação
+>
+>   - O usuário ao cadastrar a carteira de vacinação, poderá utilizar a aplicação como passaporte imunização
+>   - [Ver detalhes técnicos](https://elianeoliota.github.io)
+>
+>- ### Reportar exposição
+>
+>   - Quando o usuário for contaminado, poderá informar para monitorar sua localização de forma anônima durante a quarentena
+>   - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
+>
+>- ### Mapear risco atual
+>
+>   - Verificar se nas proximidades há risco de contágio com base nas localizações compartilhadas.
+>   - [Ver detalhes técnicos](https://elianeoliota.github.io)
 
 ## Tratamento
-
+>
+>
+>
 ## Isolamento
-
+>
+>
+>
