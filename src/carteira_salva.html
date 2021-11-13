@@ -16,12 +16,12 @@
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="/src/estilo_compartilhado.css">
- 
+  <link rel="stylesheet" href="/src/cadastro_carteira_vacina.css">
 </head>
 
 
 <body>
-  <div class="container-fluid"> 
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg text-light navbar-light bg-light  transparente">
       <a class="navbar-brand" href="/src/principal.html">
         <!-- <img src="/img/mask.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
@@ -84,6 +84,7 @@
       </div>
     </nav>
 
+
   <br><br>
   <div class="container-fluid">
 
@@ -92,70 +93,17 @@
         <div class="card">
           <div class="card-header">
             <h3>
-              <img src="/img/reportar_positivo.png" class="rounded-circle" width="32px">
-              Reportar caso positivo
+              <img src="/img/vacina.png" class="rounded-circle" width="32px">
+              Carteira digital de vacinação 
             </h3>
           </div>
           <div class="card-body">
-
-            <form id="formulario">
-              <div class="row">
-
-                <div class="col-4">
-
-                  <div class="card">
-                    <div class="card-header">
-                      <h4>
-                        Formulário
-                      </h4>
-                    </div>
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col">
-                          <label for="data">Data do teste</label>
-                          <input type="date" class="form-control" id="data" placeholder="Data do teste" required>
-
-                        </div>
-                        <div class="col">
-                          <label for="dias">Monitorar por:</label>
-                          <input type="number" class="form-control" id="dias" min="5" required
-                            placeholder="Quantidade de dias">
-                        </div>
-                      </div>
-
-                      <br><br>
-                      <div class="row">
-                        <div class="col"></div>
-                        <button type="button" id="cancelar" class="btn btn-danger form-control col-3">Cancelar</button>
-                        <button type="submit" class="btn btn-primary form-control col-3">Enviar</button>
-
-                        <div class="col"></div>
-                      </div>
-                    </div>
-                    <div class="card-footer">
-
-                      Ao reportar o caso positivo, a localização será compartilhada de forma anônima, por alguns dias.
-                      Durante esse
-                      período os
-                      outros usuários receberão alertas para evitar aproximação.
-
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <iframe width="100%" height="370px"
-                        src="https://maps.google.com/maps?q=proway&t=&z=21&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                        style="border:0" allowfullscreen></iframe>
-                    </div>
-                  </div>
-
-                </div>
+            <div class="card">
+              <div class="card-body">
+                 
+     <img src="/img/exemplo_carteira.png" alt="">
               </div>
-            </form>
-
+            </div>
 
 
           </div>
@@ -165,32 +113,25 @@
     </div>
 
   </div>
-  </div>
 
-  <div class="footer bg-light">
+</div>
 
-    <img src="/img/logo_login.png" height="70px"> 
-    <br>
-    <b>Desenvolvido por : Equipe parque spitzkopf</b>
- 
-   </div>
+
+<div class="footer bg-light">
+
+  <img src="/img/logo_login.png" height="70px"> 
+  <br>
+  <b>Desenvolvido por : Equipe parque spitzkopf</b>
+
+ </div>
   <script src="/src/seguranca.js"></script>
   <script>
-    $("#formulario").on(         //para o elemento com ID 'formulario'
-      'submit',                  //no evento de submit disparado pelo button com type submit
-      (e) => {                   //faça o que estiver nessa função (e) é o parametro de evento
-        e.preventDefault();      //removendo caracteristica padrão do submit que é dar um refresh em tela
-        alert("Caso positivo, reportado. Obrigado por contribuir") // mensagem em tela para o usuário
-        window.history.go(-1);   //comando para voltar a página anterior
-        return false;
-      }
-    );
+ 
 
-    $("#cancelar").on(          //para o elemento com ID 'cancelar'
-      "click",                  //no evento de click
-      () => {                     //faça o que estiver nessa função
-        window.history.go(-1);  //retornar a página anterior
-        return false;
+    $("#entrar").on(
+      "click",
+      () => {
+        window.location='/src/carteira_salva.html'
       }
     )
   </script>
