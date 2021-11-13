@@ -1,0 +1,9 @@
+# Documentação referente à "Banco de dados" do web app "Block COVID"
+
+## Descrição
+
+O banco de dados do nosso programa funcionara para dar acesso ao web app, salvando o nome de usuário, email, e senha.
+
+## Detalhes técnicos
+
+será utilizado o MySQL para a criação do banco de dados, sendo hospedado no WildFly, utilizando java para realizar criação, exclusão e alterações do banco de dados.
