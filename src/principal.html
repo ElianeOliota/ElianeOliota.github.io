@@ -14,12 +14,27 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .background {
+      background-color: #fff;
+      background-attachment: fixed;
+      background-image: url(/img/background.jpg);
+      background-repeat: repeat-x;
+
+    }
+
+    .fixo {
+      position: fixed;
+      width: 100%;
+      z-index: 99;
+    }
+  </style>
 
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark ">
+  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-primary fixo">
     <a class="navbar-brand" href="/src/principal.html">
       <img src="/img/mask.png" width="30" height="30" class="d-inline-block align-top" alt="">
       Block Covid-19
@@ -79,143 +94,249 @@
       </form>
     </div>
   </nav>
-
-  <br><br>
-  <div class="container-fluid">
-    <h3 id="bem_vindo"></h3>
+  <div class="container-fluid background">
+    <br><br><br>
+    <h5 id="bem_vindo"></h5>
 
     <div class="row">
-      <div class="col-12">
-        <div class="card text-center">
-          <div class="card-header">
-            <h3>
 
-              Painel Coronavírus - Brasil
-            </h3>
+      <div class="col-12">
+
+        <div class="card">
+          <div class="card-header text-center">
+            <h3> Painel Coronavírus </h3>
+            <h6 id="atualizado"></h6>
           </div>
           <div class="card-body">
-
             <div class="row">
-              <div class="col-4">
-                <div class="card ">
-                  <div class="card-header alert-success">
+              <div class="col-7">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <h3>
+                      Brasil
+                    </h3>
 
-                    <h2>Casos recuperados</h2>
                   </div>
                   <div class="card-body">
-                    <h3 id="recuperados">valor</h3>
+
+                    <div class="row">
+
+                      <div class="col-4">
+                        <div class="card">
+                          <div class="card-header alert-warning">
+
+                            <h2>Casos confirmados</h2>
+                          </div>
+                          <div class="card-body">
+                            <h3 id="confirmados">valor</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-4">
+                        <div class="card ">
+                          <div class="card-header alert-success">
+
+                            <h2>Casos recuperados</h2>
+                          </div>
+                          <div class="card-body">
+                            <h3 id="recuperados">valor</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-4">
+                        <div class="card">
+                          <div class="card-header alert-danger">
+
+                            <h2>Óbitos confirmados</h2>
+                          </div>
+                          <div class="card-body">
+                            <h3 id="obitos">valor</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
                   </div>
                 </div>
               </div>
 
+              <div class="col">
+                <div class="card text-center">
+                  <div class="card-header">
+                    <h3>
 
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-header alert-warning">
+                      Santa Catarina
+                    </h3>
 
-                    <h2>Casos confirmados</h2>
                   </div>
+
                   <div class="card-body">
-                    <h3 id="confirmados">valor</h3>
-                  </div>
-                </div>
-              </div>
+
+                    <div class="row">
+
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-header alert-warning">
+
+                            <h2>Casos confirmados</h2>
+                          </div>
+                          <div class="card-body">
+                            <h3 id="confirmados-sc">valor</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                    
+
+                      <div class="col">
+                        <div class="card">
+                          <div class="card-header alert-danger">
+
+                            <h2>Óbitos confirmados</h2>
+                          </div>
+                          <div class="card-body">
+                            <h3 id="obitos-sc">valor</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
 
-              <div class="col-4">
-                <div class="card">
-                  <div class="card-header alert-danger">
 
-                    <h2>Óbitos confirmados</h2>
-                  </div>
-                  <div class="card-body">
-                    <h3 id="obitos">valor</h3>
                   </div>
                 </div>
               </div>
             </div>
-
-
-
           </div>
         </div>
       </div>
     </div>
 
+
     <br><br>
     <div class="row">
       <div class="col-4">
 
-        <div class="card text-center">
+        <div class="card ">
           <div class="card-header">
-            <h3>
+            <h5>
 
-              Dicas de prevenção
-            </h3>
+              Para evitar a propagação da COVID-19, siga estas orientações.
+            </h5>
           </div>
           <div class="card-body">
             <div class="row">
-              <div class="col">
-                <div class="card ">
-                  <div class="card-header alert-info ">
-                    Lavar as mãos
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-2">
 
-                  </div>
-                  <div class="card-body ">
                     <img src="/img/wash_your_hands.png" width="64px">
+                  </div>
+                  <div class="col">
+                    <b>Lavar as mãos</b>
                     <br>
+                    Limpe as mãos com frequência.
                   </div>
                 </div>
-              </div>
 
-              <div class="col">
-                <div class="card">
-                  <div class="card-header ">
-                    Uso do álcool
 
-                  </div>
-                  <div class="card-body ">
+                <div class="row">
+                  <div class="col-2">
                     <img src="/img/antibacterial_gel.png" class="rounded-circle" width="64px">
+                  </div>
+                  <div class="col">
+                    <b>Usar álcool em gel </b>
                     <br>
-
+                    usar álcool em gel mata os vírus que podem estar nas suas mãos.
                   </div>
                 </div>
-              </div>
-            </div>
-            <br><br>
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <div class="card-header alert-warning">
-                    Distanciamento social
 
-                  </div>
-                  <div class="card-body">
+                <div class="row">
+                  <div class="col-2">
                     <img src="/img/keep_distance.png" width="64px">
+                  </div>
+                  <div class="col">
+                    <b> Distanciamento social </b>
                     <br>
-
+                    Mantenha uma distância segura de outras pessoas (pelo menos 1 metro), mesmo que elas não pareçam
+                    estar doentes.
                   </div>
                 </div>
-              </div>
 
-              <div class="col">
-                <div class="card">
-
-                  <div class="card-header alert-success">
-                    Usar máscara
-                  </div>
-                  <div class="card-body ">
+                <div class="row">
+                  <div class="col-2">
                     <img src="/img/mask.png" width="64px">
+                  </div>
+                  <div class="col">
+                    <b> Usar máscara </b>
                     <br>
+                    Use máscara em público, especialmente em locais fechados ou quando não for possível manter o
+                    distanciamento físico
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/img/vaccines.png" width="64px">
+                  </div>
+                  <div class="col">
+                    <b> Vacina </b>
+                    <br>
+                    Tome a vacina quando chegar a sua vez. Siga as orientações locais para isso.
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/img/cough.png" width="64px">
+                  </div>
+                  <div class="col">
+                    <b> Cubra o nariz </b>
+                    <br>
+                    Cubra o nariz e a boca com o braço dobrado ou um lenço ao tossir ou espirrar.
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/img/stay_at_home.png" width="64px">
+                  </div>
+                  <div class="col">
+                    <b> Se puder </b>
+                    <br>
+                    Fique em casa se você sentir indisposição
                   </div>
                 </div>
               </div>
             </div>
+
+
 
           </div>
 
         </div>
       </div>
+      <div class="col-8">
+
+        <div class="card">
+          <div class="card-header">
+            <h5>Fique informado</h5>
+          </div>
+          <div class="card-body">
+            <p>Procure atendimento médico se tiver febre, tosse e dificuldade para respirar. Ligue com antecedência para
+              o órgão prestador de cuidados de saúde e peça direcionamento à unidade mais adequada. Isso protege você e
+              evita a propagação de vírus e outras infecções.
+            </p>
+            <p>Confira as últimas notícias sobre as áreas mais perigosas (ou seja, as cidades e lugares onde a doença está se espalhando mais amplamente). Se possível, evite se deslocar para essas áreas, especialmente se você é idoso ou tem diabetes, doenças cardíacas ou pulmonares.
+              Por quê? Essas precauções devem ser tomadas nessas áreas, porque a probabilidade de contrair COVID-19 é maior.</p>
+          </div>
+        </div>
+
+      </div>
+
 
     </div>
 
@@ -234,14 +355,18 @@
         success: (response) => {      //configurando um evento que aguarda a conexão no caso de sucesso, para fazer o que estiver aqui
           console.log(response);      //logar no console o retorno ajuda a saber o modelo de dados retornado
 
-          //com base no retorno jogo o valor no elemento com id 'confirmados' e converto o valor para uma mascara numerica
+          //com base no retorno JSON o valor no elemento com id 'confirmados' e converto o valor para uma mascara numerica
           $("#confirmados").text(formatarBigDecimal(response.confirmados.total))
 
-          //com base no retorno jogo o valor no elemento com id 'recuperados' e converto o valor para uma mascara numerica
+          //com base no retorno JSON o valor no elemento com id 'recuperados' e converto o valor para uma mascara numerica
           $("#recuperados").text(formatarBigDecimal(response.confirmados.recuperados))
 
-          //com base no retorno jogo o valor no elemento com id 'obitos' e converto o valor para uma mascara numerica
+          //com base no retorno JSON o valor no elemento com id 'obitos' e converto o valor para uma mascara numerica
           $("#obitos").text(formatarBigDecimal(response.obitos.total))
+
+          // com base no retorno do JSON o valor no elemento com ID 'atualizado' 
+          let atualizado = new Date(response.dt_updated)
+          $("#atualizado").text('Atualizado em: ' + atualizado.toLocaleDateString() + ' -  ' + atualizado.getHours() + ":" + atualizado.getMinutes())
 
         },
         error: (erro) => { //configurando um evento que aguarda a conexão no caso de sucesso, para fazer o que estiver aqui
@@ -250,8 +375,30 @@
       }
     );
 
+    $.ajax(
+      {
+        url: 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalEstado',
+        type: 'get',
+        success:
+          (response) => {
+            console.log(response)
+            console.log(response[6].casosAcumulado);
+            $('#confirmados-sc').text(formatarBigDecimal(response[6].casosAcumulado.toString()))
+            $('#obitos-sc').text(formatarBigDecimal(response[6].obitosAcumulado.toString()))
+            
+          },
+        error:
+          (erro) => {
+            console.warn(erro)
+          }
+
+      }
+    )
+
+
+
     function formatarBigDecimal(valor) {              //função utilitária que recebe um numero e formata com caracteres numericos como (,)
-      return valor.replace(/(.)(?=(\d{3})+$)/g, '$1,')//regex (expressão regular que faz essa formatação)
+      return valor.replace(/(.)(?=(\d{3})+$)/g, '$1.')//regex (expressão regular que faz essa formatação)
       //para cada grupo de 3 caracteres será inserido (,)
     }
 
