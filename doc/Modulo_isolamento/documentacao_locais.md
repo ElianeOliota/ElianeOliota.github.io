@@ -15,7 +15,7 @@ Caso o usuário seja um comerciante, poderá cadastrar seu estabelecimento atrav
 
 ### Detalhes técnicos:
 
-Os dados fornecidos no formulário de cadastramento seriam armazenados em um banco de dados (PostgreSQL).
+Os dados fornecidos no formulário de cadastramento seriam armazenados em um banco de dados (MySQL).
 Para inicialização e centralização do mapa será utilizada a API Google Maps (consultada pelo link: https://developers.google.com/maps/documentation/javascript/overview) passando as informações do GPS recebidas pelo browser. 
 Para a visualização do marcador correspondente à localização do estabelecimento comercial no mapa, será repassado à API, o campo "plus code" (solicitado ao comerciante no preenchimento do formulário de cadastramento). Plus Codes são baseados em latitude e longitude e funcionam como endereços físicos.
 
