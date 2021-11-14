@@ -5,138 +5,77 @@
   <meta charset="UTF-8">
   <title>Block COVID</title>
   <link rel="shortcut icon" href="/img/favico.png" type="image/png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="/src/estilo_compartilhado.css">
-  <link rel="stylesheet" href="/src/cadastro_carteira_vacina.css">
+  <link rel="stylesheet" href="/src/css/bootstrap.css">
+  <script src="/src/js/jquery.js"></script>
+  <script src="/src/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="/src/css/estilo_compartilhado.css">
+  <script src="/src/js/seguranca.js"></script>
+  <link rel="stylesheet" href="/src/css/cadastro_carteira_vacina.css">
 </head>
 
 
 <body>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg text-light navbar-light bg-light  transparente">
-      <a class="navbar-brand" href="/src/principal.html">
-        <!-- <img src="/img/mask.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-        <img src="/img/logo_login.png" width="200" height="60">
-  
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/src/principal.html">Home <span class="sr-only"></span></a>
-          </li>
-  
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="prevencao" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Prevenção
-            </a>
-            <div class="dropdown-menu" aria-labelledby="prevencao">
-              <a class="dropdown-item" href="/src/cadastrar_vacina.html">
-                <img src="/img/vacina.png" class="rounded-circle" width="32px">
-                Cadastrar carteira de vacina</a>
-              <a class="dropdown-item" href="/src/reportar_positivo.html">
-                <img src="/img/reportar_positivo.png" class="rounded-circle" width="32px">
-                Reportar caso positivo</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="/src/mapear_risco.html">
-  
-                <img src="/img/locations.png" class="rounded-circle" width="32px">
-                Mapear riscos nas proximidades</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="tratamento" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Tratamento
-            </a>
-            <div class="dropdown-menu" aria-labelledby="tratamento">
-              <a class="dropdown-item" href="#">Em desenvolvimento...</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="isolamento" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Isolamento
-            </a>
-            <div class="dropdown-menu" aria-labelledby="isolamento">
-              <a class="dropdown-item" href="#">Em desenvolvimento...</a>
-            </div>
-          </li>
-  
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <a class="nav-link text-dark" href="/src/login.html">Sair</a>
-        </form>
-      </div>
     </nav>
 
 
-  <br><br>
-  <div class="container-fluid">
+    <br><br>
+    <div class="container-fluid">
 
-    <div class="row">
-      <div class="col-12">
-        <div class="card">
-          <div class="card-header">
-            <h3>
-              <img src="/img/vacina.png" class="rounded-circle" width="32px">
-              Cadastrar carteira de vacina 
-            </h3>
-          </div>
-          <div class="card-body">
-            <div class="card">
-              <div class="card-body">
-                 
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>
+                <img src="/img/vacina.png" class="rounded-circle" width="32px">
+                Cadastrar carteira de vacina
+              </h3>
+            </div>
+            <div class="card-body">
+              <div class="card">
+                <div class="card-body">
 
-                <div id="login">
-                  <h3>IDENTIFICAÇÃO</h3><br>
-                    <form method="post" action=""> 
-                      <p> 
+
+                  <div id="login">
+                    <h3>IDENTIFICAÇÃO</h3><br>
+                    <form method="post" action="">
+                      <p>
                         <label for="e-mail">CPF:*</label>
                         <input id="cpf" name="text" required="required" type="text" placeholder="digite aqui seu cpf *">
                       </p>
-                      <p> 
+                      <p>
                         <label for="sus">Número do SUS:</label><br>
                         <label for="sus"><strong>(OPICIONAL)</strong></label>
-                        <input id="senha" name="senha" required="required" type="text" placeholder="digite aqui seu número do SUS"> 
+                        <input id="senha" name="senha" required="required" type="text"
+                          placeholder="digite aqui seu número do SUS">
                       </p>
                       <span class="linhasMais"> </span>
                       <div id="blocoDoisCadastro">
                         <h3>INFORMAÇÕES BÁSICAS</h3><br>
-                        <p> 
+                        <p>
                           <label for="e-mail">Nome Completo:*</label>
-                          <input id="cpf" name="text" required="required" type="text" placeholder="digite aqui seu nome completo *">
+                          <input id="cpf" name="text" required="required" type="text"
+                            placeholder="digite aqui seu nome completo *">
                         </p>
                         <p>
-                          </p><p>Sexo</p>
-                          <input type="radio" name="manterlogado" id="manterlogadoum" value="cadastrado"> 
-                          <label for="manterlogado" id="sexoMasculino">Masculino</label>
-                          <div id="checkdireitasexo">
-                            <input type="radio" name="manterlogado" id="manterlogadodois" value="nao_cadastrado">
-                            <label for="manterlogado" id="nao_cadastrado">Feminino</label>
-                          </div>
-                        <p></p> 
-                        <p> 
-                          <label for="sus">Data de Nascimento:*</label><br>
-                          <input id="senha" name="senha" required="required" type="date"> 
                         </p>
-                        <p> 
+                        <p>Sexo</p>
+                        <input type="radio" name="manterlogado" id="manterlogadoum" value="cadastrado">
+                        <label for="manterlogado" id="sexoMasculino">Masculino</label>
+                        <div id="checkdireitasexo">
+                          <input type="radio" name="manterlogado" id="manterlogadodois" value="nao_cadastrado">
+                          <label for="manterlogado" id="nao_cadastrado">Feminino</label>
+                        </div>
+                        <p></p>
+                        <p>
+                          <label for="sus">Data de Nascimento:*</label><br>
+                          <input id="senha" name="senha" required="required" type="date">
+                        </p>
+                        <p>
                           <label for="sus">Nome da Mãe:*</label><br>
-                          <input id="senha" name="senha" required="required" type="text" placeholder="digite aqui o nome da sua mãe  *"> 
+                          <input id="senha" name="senha" required="required" type="text"
+                            placeholder="digite aqui o nome da sua mãe  *">
                         </p>
                         <span class="linhasMais"> </span><br><br>
                         <h3>ENDEREÇO DE RESIDÊNCIA</h3><br>
@@ -147,7 +86,7 @@
                             <option value="Paraná">Paraná</option>
                             <option value="Rio Grande do Sul">Rio Grande do Sul</option>
                             <option value="São Paulo">São Paulo</option>
-                          </select> 
+                          </select>
                         </p>
                         <p>
                           <label for="Estado UF">Município:*</label><br>
@@ -156,29 +95,34 @@
                             <option value="Paraná">Gaspar</option>
                             <option value="Rio Grande do Sul">Indaial</option>
                             <option value="São Paulo">Timbó</option>
-                          </select> 
+                          </select>
                         </p>
-                        <p> 
+                        <p>
                           <label for="cep">CEP:*</label><br>
-                          <input id="cep" name="cep" required="required" type="number" placeholder="digite aqui seu cep  *"> 
+                          <input id="cep" name="cep" required="required" type="number"
+                            placeholder="digite aqui seu cep  *">
                         </p>
-                        <p> 
+                        <p>
                           <label for="bairro">Bairro:*</label><br>
-                          <input id="bairro" name="bairro" required="required" type="text" placeholder="digite aqui o nome do seu bairro  *"> 
+                          <input id="bairro" name="bairro" required="required" type="text"
+                            placeholder="digite aqui o nome do seu bairro  *">
                         </p>
-                        <p> 
+                        <p>
                           <label for="endereco">Endereço:*</label><br>
-                          <input id="endereco" name="endereco" required="required" type="text" placeholder="digite aqui seu endereço  *"> 
+                          <input id="endereco" name="endereco" required="required" type="text"
+                            placeholder="digite aqui seu endereço  *">
                         </p>
-                        <p> 
+                        <p>
                           <label for="numero">Número:</label><br>
-                          <input id="numero" name="numero" required="required" type="number" placeholder="digite aqui o número de sua residência "> 
+                          <input id="numero" name="numero" required="required" type="number"
+                            placeholder="digite aqui o número de sua residência ">
                         </p>
-                        <p> 
+                        <p>
                           <label for="numero">Complemento:</label><br>
-                          <input id="numero" name="numero" required="required" type="number" placeholder="digite aqui complementos ou referências de sua residência "> 
+                          <input id="numero" name="numero" required="required" type="number"
+                            placeholder="digite aqui complementos ou referências de sua residência ">
                         </p>
-        
+
                       </div><br><br><br><br><br><br>
                       <div id="blocoFinal">
                         <!-- <p>
@@ -190,58 +134,63 @@
                             <label for="manterlogado" id="nao_cadastrado">Entrar sem cadastro</label>
                           </div>
                         </p>  -->
-                        <p> 
-                          <input type="checkbox" name="manterlogado" id="manterlogado" value=""> 
+                        <p>
+                          <input type="checkbox" name="manterlogado" id="manterlogado" value="">
                           <label for="manterlogado">Concordo que li e aceito os termos de cadastro *</label>
-                        </p> 
-                        <p> 
-                          <input type="checkbox" name="manterlogado" id="manterlogado" value=""> 
+                        </p>
+                        <p>
+                          <input type="checkbox" name="manterlogado" id="manterlogado" value="">
                           <label for="manterlogado">Gerar carteira digital</label><br><br>
-                        </p> 
-                        <p> 
-                          </p><div id="entrar">Concluir</div>
-                          <!-- <button id="entrar" >Entrar</button> -->
-                          <!-- <input type="submit" value="Entrar" />  -->
+                        </p>
+                        <p>
+                        </p>
+                        <div id="entrar">Concluir</div>
+                        <!-- <button id="entrar" >Entrar</button> -->
+                        <!-- <input type="submit" value="Entrar" />  -->
                         <p></p><br><br>
-                        
+
                         <!-- <p class="link">
                           Ainda não tem conta?
                           <a href="_form_cadastro_membro.html" target="_self" rel="next">Cadastre-se</a>
                         </p> -->
                       </div>
-                      
+
                     </form>
                   </div>
+                </div>
               </div>
+
+
             </div>
 
-
           </div>
-
         </div>
       </div>
+
     </div>
 
   </div>
 
-</div>
+
+  <div class="footer bg-light">
+
+    <img src="/img/logo_login.png" height="70px">
+    <br>
+    <b>Desenvolvido por : Equipe parque spitzkopf</b>
+
+  </div>
 
 
-<div class="footer bg-light">
 
-  <img src="/img/logo_login.png" height="70px"> 
-  <br>
-  <b>Desenvolvido por : Equipe parque spitzkopf</b>
 
- </div>
-  <script src="/src/seguranca.js"></script>
+  <script src="/src/js/menu.js"></script>
   <script>
- 
+
 
     $("#entrar").on(
       "click",
       () => {
-        window.location='/src/carteira_salva.html'
+        window.location = '/src/carteira_salva.html'
       }
     )
   </script>
