@@ -4,7 +4,7 @@
 O objetivo da funcionalidade de apresentar um mapa com locais úteis seria mostrar ao usuário os estabelecimentos próximos a ele que realizam entrega em domicílio. Possibilitando ao usuário consultar e consumir desses produtos mantendo um isolamento social, caso seja essa a necessidade,  ou apenas contribuir para o distanciamento social.
 
 ### Descrição:
-Essa funcionalidade mostrará em um mapa, as fármacias e supermercados próximos à região do usuário. Sendo possível pesquisar por outras regiões também.
+Essa funcionalidade mostrará em um mapa, as farmácias e supermercados próximos à região do usuário. Sendo possível pesquisar por outras regiões também.
 Somente serão mostrados no mapa os estabelecimentos cadastrados que seguem todos os protocolos de enfrentamento à COVID-19 e fazem entrega em domicílio.
 Ao acessar pela primeira vez o site, o browser solicitará ao usuário a autorização para acessar sua localização (conforme tela 01). Caso não haja autorização, o usuário pode pesquisar manualmente.
 Haverá um botão chamado “Meu local” que por padrão trará os locais de acordo com o GPS do usuário caso este tenha autorizado no dispositivo. 
