@@ -1,8 +1,12 @@
-# Documentação referente à funcionalidade "LOGIN" do módulo "PREVENÇÃO A COVID-19"
+# Documentação referente à funcionalidade "LOGIN/REGISTRAR" do módulo "PREVENÇÃO A COVID-19"
 
 ## Descrição
 
-Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplicação 'Block Covid -19 'com base nos cadastros realizados na tela registrar.html .
+Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplicação 'Block Covid 'com base nos cadastros realizados.
+
+Para entrar é necessário informar um email e senha que exista na lista de cadastrados, caso não tenha um email e senha para entrar é possível realizar o cadastro ou utilizar as credenciais
+email: dev
+senha: dev
 
 ## Detalhes técnicos
 
@@ -10,9 +14,14 @@ Essa funcionalidade tem por objetivo autenticar a entrada do usuário na aplica�
 
 A ação obtem a lista de usuários salva na tela 'registar.html' para percorrer e comparar com o email e senha informados no formulário, caso encontre é direcionado a página 'principal.html' que representa a área logada.
 
-Quando não localiza o usuario, um alerta é emitido solicitando a revisão dos dados informados
+Quando não localiza o usuário, um alerta é emitido solicitando a revisão dos dados informados
 
 >OBS: Utilize o email 'dev' e senha 'dev' , caso não tenha se registrado
+
+- Para realizar um cadastro selecione o botão 'Realizar cadastro' e informe
+  - Nome
+  - Email
+  - Senha
 
 Segue o código fonte comentado
 
