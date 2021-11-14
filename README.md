@@ -103,7 +103,6 @@ Número| Membro| Discord | Organização
 >- ### Cadastrar carteira de vacinação
 >
 >   - O usuário ao cadastrar a carteira de vacinação, poderá utilizar a aplicação como passaporte imunização
->   - [Ver detalhes técnicos](https://elianeoliota.github.io)
 >
 >- ### Reportar caso positivo
 >
@@ -113,7 +112,6 @@ Número| Membro| Discord | Organização
 >- ### Mapear riscos nas proximidades
 >
 >   - Verificar se nas proximidades há risco de contágio com base nas localizações compartilhadas.
->   - [Ver detalhes técnicos](https://elianeoliota.github.io)
 
 ## Tratamento
 >
