@@ -37,7 +37,7 @@ Número| Membro| Discord | Organização
 02| Benlove Anelus| 2beloved#9121|  Equipe 01 - Prevenção (Documentação e testes)
 03| David Christian Machado|    DACRI#4138| Equipe 01 - Prevenção (Programação - login / registrar / cadastrar carteira de vacinação)
 04| Eliane Henrique Oliota| Eliane Oliota#5537| Equipe 01 - Prevenção (Programação - página principal / reportar caso positivo / mapear riscos nas proximidades)
-05| Maria Eduarda Krutzsch| maria#5190|  Equipe 02 - Tratamento
+05| Maria Eduarda Krutzsch| mariazinha#8145|  Equipe 02 - Tratamento
 06| Lucas Panini Valcanaia| Lucas P. Valcanaia#1158|    Equipe 02 - Tratamento
 07| Yuri Koller Borba|  lup#5227|    Equipe 02 - Tratamento
 08| Douglas Lima da Luz|    douglaslima#5101|   Equipe 03 - Isolamento (Documentação)
