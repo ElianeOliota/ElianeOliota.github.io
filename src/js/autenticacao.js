@@ -96,15 +96,15 @@ $("#registrar").on(   //para elemento com id 'registrar'
 );
 
 
-$("#cadastrar").click(function () {
-    $("#first").fadeOut("fast", function () {
-        $("#second").fadeIn("fast");
+$("#cadastrar").click(function () {           //para o elemento com id 'cadastrar' no evento de click
+    $("#first").fadeOut("fast", function () { //ocultar o elemento id 'first' que é a div do login com efeito de sumir de forma rapida
+        $("#second").fadeIn("fast");          //exibir o elemento id 'second' que é a div do registrar com efeito de aparecer de forma rapida
     });
 });
 
-$("#logar").click(function () {
-    $("#second").fadeOut("fast", function () {
-        $("#first").fadeIn("fast");
+$("#logar").click(function () {               //para o elemento com id 'logar' no evento de click
+    $("#second").fadeOut("fast", function () {//ocultar o elemento id 'second' que é a div do registrar com efeito de sumir de forma rapida
+        $("#first").fadeIn("fast");           //exibir o elemento id 'first' que é a div do login com efeito de aparecer de forma rapida
     });
 });
 
