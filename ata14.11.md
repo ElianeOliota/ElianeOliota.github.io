@@ -1,6 +1,6 @@
 # Resumo - Call 14/11/2021
 
-Participantes: Elaine, David, Luan, Lucas, Douglas, André e Paula
+Participantes: Eliane, David, Luan, Lucas, Douglas, André e Paula
 
 Gravação da Call: https://drive.google.com/file/d/1moo35YJhsMDitpPsJlTFYo-xmz1ms_UU/view?usp=sharing
 
