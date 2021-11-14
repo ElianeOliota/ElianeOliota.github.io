@@ -34,18 +34,18 @@ Projeto (Block-Covid-19) poderá ser Site ou App
 
 Definir o papel de cada membro de acordo com o conhecimento individual
 
-Número| Membro| Discord | Papel
+Número| Membro| Discord | Organização
 ------|---------|-------|------
-01| Benlove Anelus| 2beloved#9121|  Equipe 01 - Prevenção
-02| Luan Lordello Guimarães Lima|   Luan Lordello#1751| Equipe 03 - Isolamento
-03| Eliane Henrique Oliota| Eliane Oliota#5537| Equipe 01 - Prevenção
-04| Lucas Panini Valcanaia| Lucas P. Valcanaia#1158|    Equipe 02 - Tratamento
-05| Douglas Lima da Luz|    douglaslima#5101|   Equipe 03 - Isolamento
-06| André Felipe Schwanz|   André Felipe Schwanz#2261|  Equipe 01 - Prevenção
-07| Paula Adriana da Costa| paula_costa#2011|   Equipe 03 - Isolamento
-08| Yuri Koller Borba|  lup#5227|    Equipe 02 - Tratamento
-09| Maria Eduarda Krutzsch| maria#5190|  Equipe 02 - Tratamento
-10| David Christian Machado|    DACRI#4138| Equipe 01 - Prevenção
+01| André Felipe Schwanz|   André Felipe Schwanz#2261|  Equipe 01 - Prevenção (Banco de dados)
+02| Benlove Anelus| 2beloved#9121|  Equipe 01 - Prevenção (Documentação e testes)
+03| David Christian Machado|    DACRI#4138| Equipe 01 - Prevenção (Programação - login / registrar / cadastrar carteira de vacinação)
+04| Eliane Henrique Oliota| Eliane Oliota#5537| Equipe 01 - Prevenção (Programação - página principal / reportar caso positivo / mapear riscos nas proximidades)
+05| Maria Eduarda Krutzsch| maria#5190|  Equipe 02 - Tratamento
+06| Lucas Panini Valcanaia| Lucas P. Valcanaia#1158|    Equipe 02 - Tratamento
+07| Yuri Koller Borba|  lup#5227|    Equipe 02 - Tratamento
+08| Douglas Lima da Luz|    douglaslima#5101|   Equipe 03 - Isolamento
+09| Luan Lordello Guimarães Lima|   Luan Lordello#1751| Equipe 03 - Isolamento
+10| Paula Adriana da Costa| paula_costa#2011|   Equipe 03 - Isolamento
 
 ## Funcionalidades
 
