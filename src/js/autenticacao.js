@@ -96,13 +96,13 @@ $("#registrar").on(   //para elemento com id 'registrar'
 );
 
 
-$("#logar").click(function () {
+$("#cadastrar").click(function () {
     $("#first").fadeOut("fast", function () {
         $("#second").fadeIn("fast");
     });
 });
 
-$("#cadastrar").click(function () {
+$("#logar").click(function () {
     $("#second").fadeOut("fast", function () {
         $("#first").fadeIn("fast");
     });

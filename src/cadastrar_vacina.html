@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Block COVID</title>
+  <meta name="viewport" content="initial-scale=1">
   <link rel="shortcut icon" href="/img/favico.png" type="image/png">
   <link rel="stylesheet" href="/src/css/bootstrap.css">
   <script src="/src/js/jquery.js"></script>
@@ -27,10 +28,10 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <h3>
+              <h5>
                 <img src="/img/vacina.png" class="rounded-circle" width="32px">
                 Cadastrar carteira de vacina
-              </h3>
+              </h5>
             </div>
             <div class="card-body">
               <div class="card">
@@ -38,47 +39,47 @@
 
 
                   <div id="login">
-                    <h3>IDENTIFICAÇÃO</h3><br>
+                    <h5>IDENTIFICAÇÃO</h5><br>
                     <form method="post" action="">
                       <p>
                         <label for="e-mail">CPF:*</label>
-                        <input id="cpf" name="text" required="required" type="text" placeholder="digite aqui seu cpf *">
+                        <input class='form-control' id="cpf" name="text" required="required" type="text" placeholder="digite aqui seu cpf *">
                       </p>
                       <p>
                         <label for="sus">Número do SUS:</label><br>
-                        <label for="sus"><strong>(OPICIONAL)</strong></label>
-                        <input id="senha" name="senha" required="required" type="text"
+                        <label for="sus"><strong>(OPCIONAL)</strong></label>
+                        <input class='form-control' id="senha" name="senha" required="required" type="text"
                           placeholder="digite aqui seu número do SUS">
                       </p>
                       <span class="linhasMais"> </span>
                       <div id="blocoDoisCadastro">
-                        <h3>INFORMAÇÕES BÁSICAS</h3><br>
+                        <h5>INFORMAÇÕES BÁSICAS</h5><br>
                         <p>
                           <label for="e-mail">Nome Completo:*</label>
-                          <input id="cpf" name="text" required="required" type="text"
+                          <input class='form-control' id="cpf" name="text" required="required" type="text"
                             placeholder="digite aqui seu nome completo *">
                         </p>
                         <p>
                         </p>
                         <p>Sexo</p>
-                        <input type="radio" name="manterlogado" id="manterlogadoum" value="cadastrado">
+                        <input class='form-control' type="radio" name="manterlogado" id="manterlogadoum" value="cadastrado">
                         <label for="manterlogado" id="sexoMasculino">Masculino</label>
                         <div id="checkdireitasexo">
-                          <input type="radio" name="manterlogado" id="manterlogadodois" value="nao_cadastrado">
+                          <input class='form-control' type="radio" name="manterlogado" id="manterlogadodois" value="nao_cadastrado">
                           <label for="manterlogado" id="nao_cadastrado">Feminino</label>
                         </div>
                         <p></p>
                         <p>
                           <label for="sus">Data de Nascimento:*</label><br>
-                          <input id="senha" name="senha" required="required" type="date">
+                          <input class='form-control' id="senha" name="senha" required="required" type="date">
                         </p>
                         <p>
                           <label for="sus">Nome da Mãe:*</label><br>
-                          <input id="senha" name="senha" required="required" type="text"
+                          <input class='form-control' id="senha" name="senha" required="required" type="text"
                             placeholder="digite aqui o nome da sua mãe  *">
                         </p>
                         <span class="linhasMais"> </span><br><br>
-                        <h3>ENDEREÇO DE RESIDÊNCIA</h3><br>
+                        <h5>ENDEREÇO DE RESIDÊNCIA</h5><br>
                         <p>
                           <label for="Estado UF">Estado (UF):*</label><br>
                           <select name="estado" class="estado">
@@ -99,27 +100,27 @@
                         </p>
                         <p>
                           <label for="cep">CEP:*</label><br>
-                          <input id="cep" name="cep" required="required" type="number"
+                          <input class='form-control' id="cep" name="cep" required="required" type="number"
                             placeholder="digite aqui seu cep  *" onblur="pesquisacep(this.value)">
                         </p>
                         <p>
                           <label for="bairro">Bairro:*</label><br>
-                          <input id="bairro" name="bairro" required="required" type="text"
+                          <input class='form-control' id="bairro" name="bairro" required="required" type="text"
                             placeholder="digite aqui o nome do seu bairro  *">
                         </p>
                         <p>
                           <label for="endereco">Endereço:*</label><br>
-                          <input id="endereco" name="endereco" required="required" type="text"
+                          <input class='form-control' id="endereco" name="endereco" required="required" type="text"
                             placeholder="digite aqui seu endereço  *">
                         </p>
                         <p>
                           <label for="numero">Número:</label><br>
-                          <input id="numero" name="numero" required="required" type="number"
+                          <input class='form-control' id="numero" name="numero" required="required" type="number"
                             placeholder="digite aqui o número de sua residência ">
                         </p>
                         <p>
                           <label for="numero">Complemento:</label><br>
-                          <input id="numero" name="numero" required="required" type="number"
+                          <input class='form-control' id="numero" name="numero" required="required" type="number"
                             placeholder="digite aqui complementos ou referências de sua residência ">
                         </p>
 
@@ -127,27 +128,28 @@
                       <div id="blocoFinal">
                         <!-- <p>
                           <p>Selecione a opção correta abaixo</p>
-                          <input type="radio" name="manterlogado" id="manterlogadoum" value="cadastrado" /> 
+                          <input class='form-control' type="radio" name="manterlogado" id="manterlogadoum" value="cadastrado" /> 
                           <label for="manterlogado" id="cadastrado">Sou cadastrado</label>
                           <div id="checkdireita" >
-                            <input type="radio" name="manterlogado" id="manterlogadodois" value="nao_cadastrado" />
+                            <input class='form-control' type="radio" name="manterlogado" id="manterlogadodois" value="nao_cadastrado" />
                             <label for="manterlogado" id="nao_cadastrado">Entrar sem cadastro</label>
                           </div>
                         </p>  -->
                         <p>
-                          <input type="checkbox" name="manterlogado" id="manterlogado" value="">
+                          <input class='form-control' type="checkbox" name="manterlogado" id="manterlogado" value="">
                           <label for="manterlogado">Concordo que li e aceito os termos de cadastro *</label>
                         </p>
                         <p>
-                          <input type="checkbox" name="manterlogado" id="manterlogado" value="">
+                          <input class='form-control' type="checkbox" name="manterlogado" id="manterlogado" value="">
                           <label for="manterlogado">Gerar carteira digital</label><br><br>
                         </p>
                         <p>
                         </p>
-                        <div id="entrar">Concluir</div>
+                        <button class="btn btn-primary" id="entrar">Concluir</button>
                         <!-- <button id="entrar" >Entrar</button> -->
-                        <!-- <input type="submit" value="Entrar" />  -->
+                        <!-- <input class='form-control' type="submit" value="Entrar" />  -->
                         <p></p><br><br>
+                        <br><br>
 
                         <!-- <p class="link">
                           Ainda não tem conta?
@@ -184,6 +186,7 @@
 
 
   <script src="/src/js/menu.js"></script>
+  <script src="js/menu.js"></script>
   <script>
 
 
