@@ -119,6 +119,12 @@ Número| Membro| Discord | Organização
 >
 >    - Informa o usuário dos sintomas, possível tratamento e o que pode ajudar com a COVID-19, além de oferecer um teste para saber a gravidade dos sintomas.
 >    - [Ver detalhes técnicos](/doc/Modulo_tratamento/documentacao_quadro.md)
+>
+> - ### Calculadora de sintomas
+>
+>    - Calcula os sintomas do usuário e oferece um resultado sobre a urgência em fazer um teste de covid.
+>    - [Ver detalhes técnicos](/doc/Modulo_tratamento/documentacao_sintomas.md)
+
 ## Isolamento
 >
 >- ### Mapeamento de aglomeração
