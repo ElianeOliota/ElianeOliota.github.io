@@ -101,7 +101,7 @@
                         <p>
                           <label for="cep">CEP:*</label><br>
                           <input id="cep" name="cep" required="required" type="number"
-                            placeholder="digite aqui seu cep  *">
+                            placeholder="digite aqui seu cep  *" onblur="pesquisacep(this.value)">
                         </p>
                         <p>
                           <label for="bairro">Bairro:*</label><br>
@@ -173,6 +173,7 @@
   </div>
 
 
+
   <div class="footer bg-light">
 
     <img src="/img/logo_login.png" height="70px">
@@ -185,6 +186,7 @@
 
 
   <script src="/src/js/menu.js"></script>
+  <script src="js/cep.js"></script>
   <script>
 
 
