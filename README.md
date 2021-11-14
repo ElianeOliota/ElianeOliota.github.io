@@ -64,7 +64,7 @@ Número| Membro| Discord | Organização
 >
 >Alertar caso encontre outro usuario com mesmo e-mail
 >
->[Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_registrar.md)
+>[Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_login.md)
 
 ### Sair
 
