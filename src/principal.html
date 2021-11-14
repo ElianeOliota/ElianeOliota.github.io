@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Block COVID</title>
-  
+
   <meta name="viewport" content="initial-scale=1">
   <link rel="shortcut icon" href="/img/favico.png" type="image/png">
   <script src="/src/js/jquery.js"></script>
@@ -16,228 +16,223 @@
 </head>
 
 
-<body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg text-light navbar-light bg-light  transparente">
-    </nav>
-    <div class="container-fluid ">
+<body class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg text-light navbar-light bg-light  transparente">
+  </nav>
 
 
-      <h5 id="bem_vindo"></h5>
-      <div class="row">
+  <h5 id="bem_vindo"></h5>
+  <div class="row">
 
-        <div class="col-12">
+    <div class="col-12">
 
-          <div class="card">
-            <div class="card-header text-center bg-white">
-              <h5> Painel Coronavírus </h5>
-              <small id="atualizado"></small>
-            </div>
-            <div class="card-body">
-              <div class="row">
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body  bg-white">
+      <div class="card">
+        <div class="card-header text-center bg-white">
+          <h5> Painel Coronavírus </h5>
+          <small id="atualizado"></small>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body  bg-white">
+                  <div class="row">
+                    <div class="col">
+                      <b>
+                        Brasil
+                      </b>
                       <div class="row">
-                        <div class="col">
-                          <h5>
-                            Brasil
-                          </h5>
-                        </div>
-                        <div class="col">
-                          <h5>
-                            Santa Catarina
-                          </h5>
-                        </div>
-                      </div>
-
-
-                      <div class="row">
-
                         <div class="col">
                           <div class="borda alert-warning">
 
-                            <h6>Casos confirmados</h6>
-                            <h6 id="confirmados">valor</h6>
+                            <b>Casos</b>
+                            <br>
+                            <small id="confirmados">valor</small>
                           </div>
-                        </div>
-
-
+                        </div> 
                         <div class="col">
                           <div class="borda  alert-danger ">
 
-                            <h6>Óbitos confirmados</h6>
-                            <h6 id="obitos">valor</h6>
-                          </div>
-                        </div>
-
-
-
-                        <div class="col">
-                          <div class="borda alert-warning ">
-
-                            <h6>Casos confirmados</h6>
-                            <h6 id="confirmados-sc">valor</h6>
-                          </div>
-                        </div>
-
-
-                        <div class="col">
-                          <div class="borda alert-danger ">
-
-                            <h6>Óbitos confirmados</h6>
-                            <h6 id="obitos-sc">valor</h6>
-                          </div>
-                        </div>
-
-                      </div>
-                      <br><br>
-                      <div class="row">
-                        <div class="col-12">
-                          <p>
-                            A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2,
-                            potencialmente
-                            grave, de elevada transmissibilidade e de distribuição global.
+                            <b>Óbitos</b>
                             <br>
-                            <a href="https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus"
-                              target="_blank">Saiba
-                              mais</a>
-                          </p>
-                          <p>Procure atendimento médico se tiver febre, tosse e dificuldade para respirar. Ligue com
-                            antecedência para
-                            o órgão prestador de cuidados de saúde e peça direcionamento à unidade mais adequada. Isso
-                            protege você e
-                            evita a propagação de vírus e outras infecções.
-                          </p>
-                          <hr>
-                          <p>
-                            A COVID-19 afeta diferentes pessoas de diferentes maneiras. A maioria das pessoas infectadas
-                            apresentará sintomas leves a moderados da doença e não precisarão ser hospitalizadas.
-                          <ul>
-                            Sintomas mais comuns:
-                            <li>Febre</li>
-                            <li>Tosse</li>
-                            <li>Cansaço</li>
-                            <li>Perda de paladar ou olfato
-                            </li>
-                          </ul>
-                          </p>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-12">
-
-                            <p>
-
-                              Para evitar a propagação da COVID-19, siga estas orientações:
-                            </p>
-                          </div>
-                        </div>
-
-                        <br>
-                        <div class="row text-center">
-                          <center>
-
-                            <table width="95%">
-
-                              <tr>
-                                <td> <img src="/img/wash_your_hands.png" width="64px">
-                                  <br>
-                                  <b>Lavar as mãos</b>
-                                  <br>
-                                  Limpe as mãos com frequência.
-                                </td>
-                                <td><img src="/img/antibacterial_gel.png" class="rounded-circle" width="64px">
-                                  <br>
-                                  <b>Usar álcool em gel </b>
-                                  <br>
-                                  usar álcool em gel mata os vírus que podem estar nas suas mãos.
-                                </td>
-                                <td> <img src="/img/keep_distance.png" width="64px">
-                                  <br>
-                                  <b> Distanciamento social </b>
-                                  <br>
-                                  Mantenha uma distância segura de outras pessoas (pelo menos 1 metro), mesmo que elas
-                                  não
-                                  pareçam
-                                  estar doentes.
-                                </td>
-                              </tr>
-
-
-                              <tr>
-                                <td> <img src="/img/mask.png" width="64px">
-                                  <br>
-                                  <b> Usar máscara </b>
-                                  <br>
-                                  Use máscara em público, especialmente em locais fechados ou quando não for possível
-                                  manter o
-                                  distanciamento físico
-                                </td>
-                                <td> <img src="/img/vaccines.png" width="64px">
-                                  <br>
-                                  <b> Vacina </b>
-                                  <br>
-                                  Tome a vacina quando chegar a sua vez. Siga as orientações locais para isso.
-                                </td>
-                                <td> <img src="/img/cough.png" width="64px">
-                                  <br>
-                                  <b> Cubra o nariz </b>
-                                  <br>
-                                  Cubra o nariz e a boca com o braço dobrado ou um lenço ao tossir ou espirrar.
-                                </td>
-                              </tr>
-
-                            </table>
-
-                        </div>
-
-                        </center>
-
-                      </div>
-
-                      <div class="row">
-                        <div class="col-12">
-                          <hr>
-                          <h5>Fique informado</h5>
-
-                          <p>Confira as últimas notícias sobre as áreas mais perigosas (ou seja, as cidades e lugares
-                            onde
-                            a doença
-                            está se espalhando mais amplamente). Se possível, evite se deslocar para essas áreas,
-                            especialmente se
-                            você é idoso ou tem diabetes, doenças cardíacas ou pulmonares.
-                            Por quê? Essas precauções devem ser tomadas nessas áreas, porque a probabilidade de contrair
-                            COVID-19 é
-                            maior.</p>
-
-
-                          <div class="col-12 text-center">
-                            <!-- <img src="/img/aglomeracão.png" width="500px"> -->
-                            <br><br><br><br>
+                            <small id="obitos">valor</small>
                           </div>
                         </div>
                       </div>
                     </div>
+                    
+                  </div>
+                  <div class="row">
+                   
+                    <div class="col">
+                      <b>
+                        Santa&nbsp;Catarina
+                      </b>
+                      <div class="row"> 
 
+                        <div class="col">
+                          <div class="borda alert-warning ">
+    
+                            <b>Casos</b>
+                            <br>
+                            <small id="confirmados-sc">valor</small>
+                          </div>
+                        </div>
+    
+    
+                        <div class="col">
+                          <div class="borda alert-danger ">
+    
+                            <b>Óbitos</b>
+                            <br>
+                            <small id="obitos-sc">valor</small>
+                          </div>
+                        </div>
+    
+                      </div>
+                    </div>
+                  </div>
+
+
+                 
+                  <br><br>
+                  <div class="row">
+                    <div class="col-12">
+                      <p>
+                        A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2,
+                        potencialmente
+                        grave, de elevada transmissibilidade e de distribuição global.
+                        <br>
+                        <a href="https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus" target="_blank">Saiba
+                          mais</a>
+                      </p>
+                      <p>Procure atendimento médico se tiver febre, tosse e dificuldade para respirar. Ligue com
+                        antecedência para
+                        o órgão prestador de cuidados de saúde e peça direcionamento à unidade mais adequada. Isso
+                        protege você e
+                        evita a propagação de vírus e outras infecções.
+                      </p>
+                      <hr>
+                      <p>
+                        A COVID-19 afeta diferentes pessoas de diferentes maneiras. A maioria das pessoas infectadas
+                        apresentará sintomas leves a moderados da doença e não precisarão ser hospitalizadas.
+                      <ul>
+                        Sintomas mais comuns:
+                        <li>Febre</li>
+                        <li>Tosse</li>
+                        <li>Cansaço</li>
+                        <li>Perda de paladar ou olfato
+                        </li>
+                      </ul>
+                      </p>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12">
+
+                        <p>
+
+                          Para evitar a propagação da COVID-19, siga estas orientações:
+                        </p>
+                      </div>
+                    </div>
+
+                    <br>
+                    <div class="row text-center">
+                      <div class="col-sm-4 ">
+                        <img src="/img/wash_your_hands.png" width="64px">
+                        <br>
+                        <b>Lavar as mãos</b>
+                        <br>
+                        Limpe as mãos com frequência.
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="/img/antibacterial_gel.png" class="rounded-circle" width="64px">
+                        <br>
+                        <b>Usar álcool em gel </b>
+                        <br>
+                        usar álcool em gel mata os vírus que podem estar nas suas mãos.
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="/img/keep_distance.png" width="64px">
+                        <br>
+                        <b> Distanciamento social</b>
+                        <br>
+                        Mantenha uma distância segura de outras pessoas (pelo menos 1 metro), mesmo que elas não pareçam estar doentes.
+                      </div>
+                      
+                      <div class="col-sm-4">
+                        <img src="/img/vaccines.png" width="64px">
+                              <br>
+                              <b> Vacina </b>
+                              <br>
+                              Tome a vacina quando chegar a sua vez. Siga as orientações locais para isso.
+                          
+                      </div>
+
+                      <div class="col-sm-4">
+                        <img src="/img/cough.png" width="64px">
+                              <br>
+                              <b> Cubra o nariz </b>
+                              <br>
+                              Cubra o nariz e a boca com o braço dobrado ou um lenço ao tossir ou espirrar.
+                           </div>
+
+                      <div class="col-sm-4">
+                        <img src="/img/mask.png" width="64px">
+                        <br>
+                        <b> Usar máscara </b>
+                        <br>
+                        Use máscara em público, especialmente em locais fechados ou quando não for possível
+                        manter o
+                        distanciamento físico
+                      </div>
+ 
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <hr>
+                      <h5>Fique informado</h5>
+
+                      <p>Confira as últimas notícias sobre as áreas mais perigosas (ou seja, as cidades e lugares
+                        onde
+                        a doença
+                        está se espalhando mais amplamente). Se possível, evite se deslocar para essas áreas,
+                        especialmente se
+                        você é idoso ou tem diabetes, doenças cardíacas ou pulmonares.
+                        Por quê? Essas precauções devem ser tomadas nessas áreas, porque a probabilidade de contrair
+                        COVID-19 é
+                        maior.</p>
+
+
+                      <div class="col-12 text-center"> 
+                        <br><br><br><br>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
               </div>
-
             </div>
 
-
-
           </div>
+
         </div>
+
+
 
       </div>
     </div>
 
-    <br><br>
-
   </div>
+
+
+  <br><br>
+
 
   <div class="footer bg-light">
 
@@ -247,7 +242,7 @@
 
   </div>
   <script src="/src/js/menu.js"></script>
-  
+
   <script>
 
 
