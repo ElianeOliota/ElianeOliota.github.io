@@ -77,7 +77,7 @@ Foi implementado com Html , css, e JS(Jquery e Ajax) para viabilizar o consumo d
 
 ## Protótipo tela principal
 
-![Tela implementada.](/img/tela_principal_menu_prevencao_reportar_caso_positivo.png "Tela principal.")
+![Tela implementada.](/img/principal.png "Tela principal.")
 
 ## Ações implementadas no menu
 
