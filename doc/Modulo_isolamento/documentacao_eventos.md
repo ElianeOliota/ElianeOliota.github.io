@@ -1,7 +1,7 @@
-##  Documentação referente à funcionalidade "Mapeamento de aglomeração" do módulo "Isolamento e Distânciamento social"
+##  Documentação referente à funcionalidade "Mapeamento de aglomeração" do módulo "Isolamento e Distanciamento social"
 
 ### Objetivo:
-O objetivo do mapeamento de aglomeração é indicar ao usuário locais de potencial aglomeração de pessoas em torno de um ponto geográfico.
+O objetivo do mapeamento de aglomeração é indicar ao usuário, locais de potencial aglomeração de pessoas em torno de um ponto geográfico.
 
 ### Descrição:
 
@@ -25,11 +25,11 @@ Os campos consultados e filtrados da API do facebook seriam:
 
 A inicialização e centralização do mapa será via API de incorporação do Google Maps, consultada pelo link: https://developers.google.com/maps/documentation/javascript/overview.
 
-Uma rotina de código seria construída para informar ao usário, ao clicar no Pin do mapa, os seguintes detalhes (conforme tela 03):
+Uma rotina de código seria construída para informar ao usuário, ao clicar no Pin do mapa, os seguintes detalhes (conforme tela 03):
     - Nome do evento
     - Onde o evento acontecerá
     - Horário de início
-    - Horário de término?
+    - Horário de término
     - Tipo de evento realizado.
 ### Protótipos
 Tela 01

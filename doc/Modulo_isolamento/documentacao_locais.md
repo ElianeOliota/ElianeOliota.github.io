@@ -6,7 +6,7 @@ O objetivo da funcionalidade de apresentar um mapa com locais úteis seria mostr
 ### Descrição:
 Essa funcionalidade mostrará em um mapa, as farmácias e supermercados próximos à região do usuário. Sendo possível pesquisar por outras regiões também.
 Somente serão mostrados no mapa os estabelecimentos cadastrados que seguem todos os protocolos de enfrentamento à COVID-19 e fazem entrega em domicílio.
-Ao acessar pela primeira vez o site, o browser solicitará ao usuário a autorização para acessar sua localização (conforme tela 01). Caso não haja autorização, o usuário pode pesquisar manualmente.
+Ao acessar pela primeira vez o aplicativo, o browser solicitará ao usuário a autorização para acessar sua localização (conforme tela 01). Caso não haja autorização, o usuário poderá pesquisar manualmente.
 Haverá um botão chamado “Meu local” que por padrão trará os locais de acordo com o GPS do usuário caso este tenha autorizado no dispositivo. 
 Para pesquisar e filtrar locais haverá um input alfanumérico de pesquisa chamado “Digite um local” para que o usuário escolha outra região e ao ser clicado desabilitará a opção "meu local". 
 Na mesma área, haverá também uma checkbox com as opções "supermercado" e "farmácia" habilitadas por padrão. Caso o usuário deseje, pode desabilitar e realizar uma nova consulta somente com uma das opções (tela 02). 
