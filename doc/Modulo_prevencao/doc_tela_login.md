@@ -83,7 +83,7 @@ Foi implementado com Html , css, e JS para viabilizar a execução de validaçã
 
 Web| Mobile|
 ---------|---------|
-![Tela implementada.](/img/login.png "Tela de login.")| [Tela implementada.](/img//mobile/principal.png "Tela de login.")
+![Tela implementada.](/img/login.png "Tela de login.")| [Tela implementada.](/img//mobile/login.png "Tela de login.")
 
 ## Protótipo tela principal
 
