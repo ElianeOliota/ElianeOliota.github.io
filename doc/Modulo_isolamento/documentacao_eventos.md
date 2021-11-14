@@ -23,7 +23,8 @@ Os campos consultados e filtrados da API do facebook seriam:
 - Categorias do tipo de evento: ```category```
 - Tipo de evento online ou presencial: ```is_online```
 
-A inicialização e centralização do mapa será via API de incorporação do Google Maps, consultada pelo link: https://developers.google.com/maps/documentation/javascript/overview.
+Para inicialização e centralização do mapa será utilizada a API Google Maps (consultada pelo link: https://developers.google.com/maps/documentation/javascript/overview) passando as informações do GPS recebidas pelo browser. 
+Para a visualização do marcador correspondente à localização do evento no mapa, será repassado à API do Google Maps, as informações vindas da API do Facebook. 
 
 Uma rotina de código seria construída para informar ao usuário, ao clicar no Pin do mapa, os seguintes detalhes (conforme tela 03):
     - Nome do evento
