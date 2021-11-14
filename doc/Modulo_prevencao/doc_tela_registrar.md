@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Essa funcionalidade tem por objetivo cadastrar um usuário na aplicação 'Block Covid -19 ' que será validado na tela login.html e para proteger o acesso direto as paginas ao não efetuar o login .
+Essa funcionalidade tem por objetivo cadastrar um usuário na aplicação 'Block Covid' que será validado na tela login.html e para proteger o acesso direto as páginas ao não efetuar o login .
 
 ## Detalhes técnicos
 
@@ -10,7 +10,9 @@ Essa funcionalidade tem por objetivo cadastrar um usuário na aplicação 'Block
 
 A ação obtem a lista salva no localStorage do navegador para percorrer e comparar com o email informado no formulário para validar cadastro repetidos, caso encontre é informado que já existe um usuário com esse email
 
-Caso não encontre o usuario é salvo na lista e o mesmo usuario é salvo em sessão e direcionado a página 'principal.html' que representa a área logada, onde o usuário salvo em sessão será utilizado.
+Caso não encontre o usuario é salvo na lista e o mesmo usuario é salvo em sessão
+
+O usuário é direcionado a página 'principal.html' que representa a área logada, onde o usuário salvo em sessão será utilizado.
 
 Segue o código fonte comentado
 

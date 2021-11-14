@@ -1,34 +1,31 @@
 # Projeto web para o desafio Devs2Blu
 
-<https://elianeoliota.github.io/>
-
+[Clique aqui para acessar o site](https://elianeoliota.github.io/)
 
 ## Objetivo
 
-Projeto site/app (Block-Covid-19)
+> Projeto web (Block-Covid)
+>
+> - O projeto tem o objetivo de criar uma rede colaborativa que auxilie na prevenção e no distanciamento social, que consequentemente resultará na diminuição do contágio.
+>
+> - Cada usuário poderá notificar se foi contaminado e durante o periodo de quarentena sua localização será monitorada de forma anônima.
+>
+> - Os outros usuarios receberão uma notificação com o nivel de risco que esta correndo nas proximidades.
+>
+> - A aplicação poderá ser utilizada como passaporte imunização caso o usuário informe:
+>   - CPF
+>   - Número do SUS
+>
+> - Com esses dados é possivel realizar uma busca na API do SUS para recuperar as informações necessários que serão utilizadas na geração da carteira digital de vacinação
 
-O projeto tem o objetivo de criar uma rede colaborativa que auxilie o distanciamento social.
-
-Cada usuario poderá notificar se foi contaminado e durante o periodo de quarentena sua localização será monitorada de forma anonima.
-
-Os outros usuarios receberão uma notificação com o nivel de risco que esta correndo nas proximidades.
-
-O aplicativo poderá ser utilizado como passaporte imunização caso o usuario informe:
-
-- Quando se vacinou
-- Qual vacina tomou
-- Onde tomou a vacina
 ## Tecnologia
 
-Projeto (Block-Covid-19) poderá ser Site ou App
-
-- Caso site: projeto do Site pode ser desenvolvido com HTML, CSS e JavaScript. O Site terá um layout responsivo com caracteristicas mobile
+- A aplicação foi desenvolvida com HTML, CSS e JavaScript. O Site tem um layout responsivo com caracteristicas mobile
 - IDE - Visual Studio Code
-- [Ver template HTML](https://elianeoliota.github.io/src/login.html)
-
-- Caso App - projeto do App pode ser desenvolvido com JAVA, XML . O aplicativo será desenvolvido para a plataforma Android
-- IDE - Android Studio
-- [Ver template APP](https://elianeoliota.github.io/doc/BlockCovid-19.mp4)
+- Armazenamento - Utilizando localStorage para a apresentação, mas o produto final utilizará MySql
+  - O localStorage é um armazenamento local no navegador onde é possivel salvar e recuperar informações
+- Backend - O produto final terá uma API publicada com Node.js
+- [Clique aqui para acessar o site desenvolvido](https://elianeoliota.github.io)
 
 ## Equipe - Parque Spitzkopf
 
@@ -49,7 +46,7 @@ Número| Membro| Discord | Organização
 
 ## Funcionalidades
 
-### Entrar
+### Login
 
 >Capturar email e senha para autenticar a entrada
 >
@@ -57,7 +54,7 @@ Número| Membro| Discord | Organização
 >
 >Alertar caso dê erro ao entrar
 >
->[Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_login.md)
+>[Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_login.md)
 
 ### Registrar
 
@@ -67,7 +64,7 @@ Número| Membro| Discord | Organização
 >
 >Alertar caso encontre outro usuario com mesmo e-mail
 >
->[Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_registrar.md)
+>[Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_registrar.md)
 
 ### Sair
 
@@ -77,26 +74,27 @@ Número| Membro| Discord | Organização
 
 ### Página Principal
 
->Tela inicial que agrega as principais funções e resumo de informações importantes como:
+>Tela inicial agrega as principais funções e resumo de informações importantes como:
 >
->- Menu superior
+>- Menu superior:
 >   - Prevenção
+>     - Cadastrar carteira de vacina
+>       - Gerar Carteira Digital de Vacinação
+>     - Reportar caso positivo
+>       - Formulário do Teste
+>     - Mapear riscos nas proximidades
 >   - Tratamento
 >   - Isolamento
 >   - Botão de sair
 >
->- Menu lateral
->   - Inicio
->   - Reportar contaminação
->   - Cadastrar registro de vacina
->   - Ver mapa de exposição
->
->- Conteudo principal
->   - Números atualizados da pandemia
->   - Dicas simples de prevenção a covid
+>- Conteúdo principal:
+>   - Saudação ao usuário logado
+>   - painel Brasil e Santa Catarina com os números atualizados da pandemia
+>   - Dicas simples de prevenção à Covid-19
+>   - Informações sobre  à Covid-19
 >   - Proteção contra acesso sem login
 >
-> [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_principal.md)
+> [Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_principal.md)
 
 ### A tela inicial está dividida em módulos no menu superior
 
@@ -107,12 +105,12 @@ Número| Membro| Discord | Organização
 >   - O usuário ao cadastrar a carteira de vacinação, poderá utilizar a aplicação como passaporte imunização
 >   - [Ver detalhes técnicos](https://elianeoliota.github.io)
 >
->- ### Reportar exposição
+>- ### Reportar caso positivo
 >
 >   - Quando o usuário for contaminado, poderá informar para monitorar sua localização de forma anônima durante a quarentena
->   - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
+>   - [Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
 >
->- ### Mapear risco atual
+>- ### Mapear riscos nas proximidades
 >
 >   - Verificar se nas proximidades há risco de contágio com base nas localizações compartilhadas.
 >   - [Ver detalhes técnicos](https://elianeoliota.github.io)
@@ -125,10 +123,10 @@ Número| Membro| Discord | Organização
 >
 >- ### Mapeamento de aglomeração
 >
->   - Um mapa com os eventos sociais que ocorrerão na região do usuário para indicar-lhe locais de potencial aglomeração de pessoas em torno de um ponto geográfico. 
-> - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_isolamento/documentacao_eventos.md)
-> 
+>   - Um mapa com os eventos sociais que ocorrerão na região do usuário para indicar-lhe locais de potencial aglomeração de pessoas em torno de um ponto geográfico.
+> - [Ver detalhes técnicos](/doc/Modulo_isolamento/documentacao_eventos.md)
+>
 >- ### Mapa de locais úteis
 >
->   - Essa funcionalidade mostrará em um mapa as farmácias e supermercados cadastrados, próximos à região do usuário que realizam entregas e seguem os protocolos de enfrentamento à Covid-19. 
->- [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_isolamento/documentacao_locais.md)
+>   - Essa funcionalidade mostrará em um mapa as farmácias e supermercados cadastrados, próximos à região do usuário que realizam entregas e seguem os protocolos de enfrentamento à Covid-19.
+>- [Ver detalhes técnicos](/doc/Modulo_isolamento/documentacao_locais.md)

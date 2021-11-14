@@ -280,13 +280,13 @@
       }
     );
 
-    $.ajax(
-      {
-        url: 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalEstado',
-        type: 'get',
-        success:
+    $.ajax(               //requisição AJAX com JQUERY
+      {                   //configurando objeto que será utilizado para a chamada de API
+        url: 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalEstado', // url onde é esperado obter informações
+        type: 'get',      //tipo de conexão GET  (utilizado para obter dados sem realizar alterações no lado servidor)
+        success:          //configurando um evento que aguarda a conexão no caso de sucesso, para fazer o que estiver aqui
           (response) => {
-            console.log(response)
+            console.log(response)       //logar no console o retorno ajuda a saber o modelo de dados retornado
             console.log(response[6].casosAcumulado);
             $('#confirmados-sc').text(formatarBigDecimal(response[6].casosAcumulado.toString()))
             $('#obitos-sc').text(formatarBigDecimal(response[6].obitosAcumulado.toString()))
@@ -300,24 +300,9 @@
       }
     )
 
-
-    // $.ajax(
-    //   {
-    //     url: 'https://elasticsearch-saps.saude.gov.br/desc-notificacoes-esusve-*/_search?pretty',
-    //     type: 'get',
-    //     success: (response) => {
-    //       console.log(response);
-    //     },
-    //     error: (erro) => {
-    //       console.warn(erro);
-    //     }
-    //   }
-    // )
-
-
     function formatarBigDecimal(valor) {              //função utilitária que recebe um numero e formata com caracteres numericos como (,)
       return valor.replace(/(.)(?=(\d{3})+$)/g, '$1.')//regex (expressão regular que faz essa formatação)
-      //para cada grupo de 3 caracteres será inserido (,)
+      //para cada grupo de 3 caracteres será inserido (.)
     }
 
   </script>
