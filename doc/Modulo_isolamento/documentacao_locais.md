@@ -19,7 +19,7 @@ Os dados fornecidos no formulário de cadastramento seriam armazenados em um ban
 Para inicialização e centralização do mapa será utilizada a API Google Maps (consultada pelo link: https://developers.google.com/maps/documentation/javascript/overview) passando as informações do GPS recebidas pelo browser. 
 Para a visualização do marcador correspondente à localização do estabelecimento comercial no mapa, será repassado à API, o campo "plus code" (solicitado ao comerciante no preenchimento do formulário de cadastramento). Plus Codes são baseados em latitude e longitude e funcionam como endereços físicos.
 
-Uma rotina de código seria construída para informar ao usário, ao clicar no Pin do mapa, os seguintes detalhes (conforme tela 03):
+Uma rotina de código seria construída para informar ao usuário, ao clicar no Pin do mapa, os seguintes detalhes (conforme tela 03):
 - Nome do estabelecimento
 - Endereço
 - Número de telefone
