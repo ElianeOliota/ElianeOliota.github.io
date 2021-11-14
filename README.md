@@ -26,7 +26,7 @@ Projeto (Block-Covid-19) poderá ser Site ou App
 - IDE - Visual Studio Code
 - [Ver template HTML](https://elianeoliota.github.io/src/login.html)
 
-- Caso App - projeto do App pode ser desenvolvido com JAVA, XLM . O aplicativo será desenvolvido para a plataforma Android
+- Caso App - projeto do App pode ser desenvolvido com JAVA, XML . O aplicativo será desenvolvido para a plataforma Android
 - IDE - Android Studio
 - [Ver template APP](https://elianeoliota.github.io/doc/BlockCovid-19.mp4)
 
