@@ -22,7 +22,7 @@ O aplicativo poderá ser utilizado como passaporte imunização caso o usuario i
 
 Projeto (Block-Covid-19) poderá ser Site ou App
 
-- Caso site: projeto do Site pode ser desenvolvido com HTML, CSS e JavaScrip. O Site terá um layout responsivo com caracteristicas mobile
+- Caso site: projeto do Site pode ser desenvolvido com HTML, CSS e JavaScript. O Site terá um layout responsivo com caracteristicas mobile
 - IDE - Visual Studio Code
 - [Ver template HTML](https://elianeoliota.github.io/src/login.html)
 
@@ -125,10 +125,10 @@ Número| Membro| Discord | Organização
 >
 >- ### Mapeamento de aglomeração
 >
->   - Um mapa com os eventos sociais que ocorrerão na região do usuário para indica-lo locais de potencial aglomeração de pessoas em torno de um ponto geográfico. 
+>   - Um mapa com os eventos sociais que ocorrerão na região do usuário para indicar-lhe locais de potencial aglomeração de pessoas em torno de um ponto geográfico. 
 > - [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_isolamento/documentacao_eventos.md)
 > 
 >- ### Mapa de locais úteis
 >
->   - Essa funcionalidade mostrará em um mapa as fármacias e supermercados cadastrados, próximos à região do usuário que realizam entregas e seguem os protocolos de enfrentamento à Covid-19. 
+>   - Essa funcionalidade mostrará em um mapa as farmácias e supermercados cadastrados, próximos à região do usuário que realizam entregas e seguem os protocolos de enfrentamento à Covid-19. 
 >- [Ver detalhes técnicos](https://github.com/ElianeOliota/ElianeOliota.github.io/blob/main/doc/Modulo_isolamento/documentacao_locais.md)
