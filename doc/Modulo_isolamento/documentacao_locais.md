@@ -1,4 +1,4 @@
-##  Documentação referente à funcionalidade "Mapa de locais úteis" do módulo "Isolamento e Distânciamento social"
+##  Documentação referente à funcionalidade "Mapa de locais úteis" do módulo "Isolamento e Distanciamento social"
 
 ### Objetivo:
 O objetivo da funcionalidade de apresentar um mapa com locais úteis seria mostrar ao usuário os estabelecimentos próximos a ele que realizam entrega em domicílio. Possibilitando ao usuário consultar e consumir desses produtos mantendo um isolamento social, caso seja essa a necessidade,  ou apenas contribuir para o distânciamento social.
