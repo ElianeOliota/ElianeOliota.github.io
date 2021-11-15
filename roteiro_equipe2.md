@@ -13,10 +13,10 @@ Ordem| Membro| Discord | Organização
 ## 1 Lucas Panini Valcanaia
 
 > - Apresentar, de forma geral e sucinta,  sobre o módulo de tratamento e seu contexto na aplicação. 
-
+>
 > - Expor a funcionalidade do quadro de informações, explicando o seu layout, as informações contidas, tópicos abordados e 
     citando as referências utilizadas. 
-
+>
 > - Comentar sobre o direcionamento para a segunda funcionalidade do módulo de tratamento.
 
 ## 2 Yuri Koller Borba
