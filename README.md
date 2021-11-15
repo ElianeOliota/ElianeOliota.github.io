@@ -111,7 +111,7 @@ Número| Membro| Discord | Organização
 >- ### Reportar caso positivo
 >
 >   - Quando o usuário for contaminado, poderá informar para monitorar sua localização de forma anônima durante a quarentena
->   - [Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
+> [Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
 >
 >- ### Mapear riscos nas proximidades
 >
@@ -124,11 +124,13 @@ Número| Membro| Discord | Organização
 > - ### Quadro de informações
 >
 >   - Informa o usuário dos sintomas, possível tratamento e o que pode ajudar com a COVID-19, além de oferecer um teste para saber a gravidade dos sintomas.
+>
 > [Ver detalhes técnicos](/doc/Modulo_tratamento/documentacao_quadro.md)
 >
 > - ### Calculadora de sintomas
 >
 >   - Calcula os sintomas do usuário e oferece um resultado sobre a urgência em fazer um teste de covid.
+>
 > [Ver detalhes técnicos](/doc/Modulo_tratamento/documentacao_sintomas.md)
 
 ## Isolamento
@@ -136,6 +138,7 @@ Número| Membro| Discord | Organização
 >- ### Mapeamento de aglomeração
 >
 >   - Um mapa com os eventos sociais que ocorrerão na região do usuário para indicar-lhe locais de potencial aglomeração de pessoas em torno de um ponto geográfico.
+>
 > [Ver detalhes técnicos](/doc/Modulo_isolamento/documentacao_eventos.md)
 >
 >- ### Mapa de locais úteis

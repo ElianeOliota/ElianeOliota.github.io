@@ -148,7 +148,7 @@ Foi implementado com Html , css, e JS para viabilizar a execução de validaçã
 ![](/img/login.png) | ![](/img//mobile/login.png)
 
 
-## Protótipo tela registar
+## Protótipo tela registrar
 
 | Web             |  Mobile |
 :-------------------------:|:-------------------------:
