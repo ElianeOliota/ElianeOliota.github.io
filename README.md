@@ -12,9 +12,9 @@
 >
 > - O projeto tem o objetivo de criar uma rede colaborativa que auxilie na prevenção e no distanciamento social, que consequentemente resultará na diminuição do contágio.
 >
-> - Cada usuário poderá notificar se foi contaminado e durante o periodo de quarentena sua localização será monitorada de forma anônima.
+> - Cada usuário poderá notificar se foi contaminado e durante o período de quarentena sua localização será monitorada de forma anônima.
 >
-> - Os outros usuarios receberão uma notificação com o nivel de risco que esta correndo nas proximidades.
+> - Os outros usuários receberão uma notificação com o nivel de risco que esta correndo nas proximidades.
 >
 > - A aplicação poderá ser utilizada como passaporte imunização caso o usuário informe:
 >   - CPF
@@ -66,7 +66,7 @@ Número| Membro| Discord | Organização
 >
 >Guardar dados do usuário logado em sessão
 >
->Alertar caso encontre outro usuario com mesmo e-mail
+>Alertar caso encontre outro usuário com mesmo e-mail
 >
 >[Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_login.md)
 

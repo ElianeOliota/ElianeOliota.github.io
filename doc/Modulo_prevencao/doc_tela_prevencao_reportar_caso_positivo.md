@@ -37,7 +37,7 @@ Segue o código fonte comentado
 
 ## implementado
 
-Foi implementado com Html , css, e JS para viabilizar a captura de informações para monitoramento da geolocalização do usuario de forma anônima, para que essa localização compartilhada sirva de alerta aos outros usuários nas proximidades, para evitar o contágio.
+Foi implementado com Html , css, e JS para viabilizar a captura de informações para monitoramento da geolocalização do usuário de forma anônima, para que essa localização compartilhada sirva de alerta aos outros usuários nas proximidades, para evitar o contágio.
 
 ## Protótipo tela do menu prevenção - Reportar caso positivo
 

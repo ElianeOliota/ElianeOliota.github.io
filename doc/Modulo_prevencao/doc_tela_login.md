@@ -12,7 +12,7 @@ senha: dev
 
 É realizada um ação no evento de click do elemento com o ID login.
 
-A ação obtem a lista de usuários salva na tela 'registar.html' para percorrer e comparar com o email e senha informados no formulário, caso encontre é direcionado a página 'principal.html' que representa a área logada.
+A ação obtém a lista de usuários salva no cadastro, para percorrer e comparar com o email e senha informados no formulário, caso encontre é direcionado a página 'principal.html' que representa a área logada.
 
 Quando não localiza o usuário, um alerta é emitido solicitando a revisão dos dados informados
 
