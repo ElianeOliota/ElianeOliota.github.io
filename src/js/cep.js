@@ -2,6 +2,7 @@ function limpa_formulário_cep() {
     //Limpar valores do formulário de endereco.
     document.getElementById('endereco').value=("");
     document.getElementById('bairro').value=("");
+    document.getElementById('numero').value=("");
     
 }
 
@@ -9,11 +10,9 @@ function limpa_formulário_cep() {
 function meu_callback(conteudo) {
     if (!("erro" in conteudo)) {
         //Atualiza os campos com os valores.
-        document.getElementById('endereco').value=(conteudo.endereco);
-        document.getElementById('bairro').value=(conteudo.bairro);
         
-        document.getElementById('cidade').value=(conteudo.localidade);
-        document.getElementById('uf').value=(conteudo.uf);
+        document.getElementById('endereco').value=(conteudo.logradouro);
+        document.getElementById('bairro').value=(conteudo.bairro);
         
         } //end if.
         else {
