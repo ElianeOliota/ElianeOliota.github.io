@@ -8,7 +8,7 @@ Sucesso
 > - Ainda há cadastro com este email.
 > - Email válido.
 > - Conta criada.
-> - Direciona para tela Principal
+
 
 | Cadastro             |  Direcionamento |
 :-------------------------:|:-------------------------:
@@ -17,19 +17,20 @@ Sucesso
 
 Erro
 > - Há um cadastro com o email.
-> - Email invalido
+> - Email inválido.
 > - Informações não preenchidas.
+
 
 | Cadastro             |  Mensagem |
 :-------------------------:|:-------------------------:
 ![](/img/teste/email.png)  |![](/img/teste/email_existe.png) 
 
 
-Login
+## Login
 
 Sucesso
 > - Autenticação válida - Senha e Email conferem.
-> - Direciona para tela Principal
+
 
 | Login             |  Direcionamento |
 :-------------------------:|:-------------------------:
@@ -37,9 +38,10 @@ Sucesso
 
 
 Erro
-> - Autenticação inválida 
-> - Não existe cadastro para o email
-> - Senha Incorreta
+> - Autenticação inválida.
+> - Não existe cadastro para o email.
+> - Senha Incorreta.
+
 
 
 | Login             |  Mensagem |
