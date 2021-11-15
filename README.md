@@ -111,6 +111,7 @@ Número| Membro| Discord | Organização
 >- ### Reportar caso positivo
 >
 >   - Quando o usuário for contaminado, poderá informar para monitorar sua localização de forma anônima durante a quarentena
+>
 > [Ver detalhes técnicos](/doc/Modulo_prevencao/doc_tela_prevencao_reportar_caso_positivo.md)
 >
 >- ### Mapear riscos nas proximidades
@@ -144,4 +145,5 @@ Número| Membro| Discord | Organização
 >- ### Mapa de locais úteis
 >
 >   - Essa funcionalidade mostrará em um mapa as farmácias e supermercados cadastrados, próximos à região do usuário que realizam entregas e seguem os protocolos de enfrentamento à Covid-19.
+>
 > [Ver detalhes técnicos](/doc/Modulo_isolamento/documentacao_locais.md)
