@@ -2,6 +2,10 @@
 
 [Clique aqui para acessar o site](https://elianeoliota.github.io/)
 
+| Web             |  Mobile |
+:-------------------------:|:-------------------------:
+![](/img/tour_web.gif) | ![](/img/tour_mobile.png)
+
 ## Objetivo
 
 > Projeto web (Block-Covid)
