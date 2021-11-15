@@ -1,4 +1,4 @@
-# Documentação referente à funcionalidade "LOGIN/REGISTRAR" do módulo "PREVENÇÃO A COVID-19"
+# Documentação referente à funcionalidade "LOGIN/REGISTRAR" do módulo "PREVENÇÃO"
 
 ## Descrição
 

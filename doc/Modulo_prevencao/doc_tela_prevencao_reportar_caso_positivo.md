@@ -1,4 +1,4 @@
-# Documentação referente à funcionalidade "TELA REPORTAR CASO POSITIVO" do módulo "PREVENÇÃO A COVID-19"
+# Documentação referente à funcionalidade "TELA REPORTAR CASO POSITIVO" do módulo "PREVENÇÃO"
 
 ## Descrição
 
@@ -41,4 +41,6 @@ Foi implementado com Html , css, e JS para viabilizar a captura de informações
 
 ## Protótipo tela do menu prevenção - Reportar caso positivo
 
-![Tela implementada.](/img/tela_principal_menu_prevencao_reportar_caso_positivo.png "Tela reportar caso positivo.")
+| Web             |  Mobile |
+:-------------------------:|:-------------------------:
+![](/img/tela_principal_menu_prevencao_reportar_caso_positivo.png) | ![](/img//mobile/reportar_caso_positivo.png)

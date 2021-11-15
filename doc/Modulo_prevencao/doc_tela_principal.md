@@ -1,4 +1,4 @@
-# Documentação referente à funcionalidade "TELA PRINCIPAL" do módulo "PREVENÇÃO A COVID-19"
+# Documentação referente à funcionalidade "TELA PRINCIPAL" do módulo "PREVENÇÃO"
 
 ## Descrição
 
@@ -77,8 +77,12 @@ Foi implementado com Html , css, e JS(Jquery e Ajax) para viabilizar o consumo d
 
 ## Protótipo tela principal
 
-![Tela implementada.](/img/principal.png "Tela principal.")
+| Web             |  Mobile |
+:-------------------------:|:-------------------------:
+![](/img/principal.png) | ![](/img//mobile/principal.png)
 
 ## Ações implementadas no menu
 
-![Tela implementada.](/img/tela_principal_menu.png "Tela principal - menu.")
+| Web             |  Mobile |
+:-------------------------:|:-------------------------:
+![](/img/tela_principal_menu.png) | ![](/img//mobile/principal_menu.png)
