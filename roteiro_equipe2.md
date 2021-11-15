@@ -7,7 +7,7 @@
 Ordem| Membro| Discord | Organização
 ------|---------|-------|------
 06| Lucas Panini Valcanaia| Lucas P. Valcanaia#1158| Visão geral módulo 2/Prototipação
-07| Yuri Koller Borba|   lup#5227|   Documentação/Prototipação
+07| Yuri Koller Borba|   lup#5227|   Prototipação, Documentação e Vídeo Apresentação
 05| Maria Eduarda Krutzsch|    mariazinha#8145| Busca de informações/Prototipação/Contribuição na documentação
 
 ## 1 Lucas Panini Valcanaia
