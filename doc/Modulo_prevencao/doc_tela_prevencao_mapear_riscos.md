@@ -17,4 +17,4 @@ Para inicialização e centralização do mapa será utilizada a API Google Maps
 
 | Web             |  Mobile |
 :-------------------------:|:-------------------------:
-![](/img/mapa_risco.png) | ![](/img//mobile/mapear_risco.png)
+![](/img/tela_principal_menu_prevencao_mapear_risco.png) | ![](/img//mobile/mapear_risco.png)
