@@ -4,7 +4,7 @@
 
 | Web             |  Mobile |
 :-------------------------:|:-------------------------:
-![](/img/tour_web.gif) | ![](/img/tour_mobile.png)
+![](/img/tour_web.gif) | ![](/img/tour_mobile.gif)
 
 ## Objetivo
 
