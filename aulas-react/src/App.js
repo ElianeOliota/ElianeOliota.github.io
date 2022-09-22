@@ -1,11 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Usuario from './Usuario';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <table border="1">
+
+          <tbody>
+            <tr>
+              <td width="10%" > <img src={logo} className="App-logo" alt="logo" /></td>
+              <td> <Usuario/>
+
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,7 +28,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Eliane Oliota
         </a>
       </header>
     </div>
