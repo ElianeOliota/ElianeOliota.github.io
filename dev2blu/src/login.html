@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Block COVID</title>
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="shortcut icon" href="/img/favico.png" type="image/png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script src="/src/js/jquery.js"></script>
+  <script src="/src/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="/src/css/bootstrap.css">
+  <link rel="stylesheet" href="/src/css/style.css">
+  <script src="/src/js/jquery.js"></script>
+
+</head>
+
+<body>
+
+
+  <div id="preloader">
+    <div class="inner">
+      <!-- HTML DA ANIMAÇÃO -->
+      <div class="bolas">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <span id="txt_preloader">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aguarde </span><br>
+      <span id="txt_preloader">Carregando APP !... </span>
+    </div>
+  </div>
+  <!-- fim do preloader -->
+
+
+  <div id="total_main">
+    <div id="logo"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div id="first">
+            <div class="myform form ">
+              <div class="logo mb-6">
+                <div class="col-md-12 text-center">
+                  <h1>Login</h1>
+                </div>
+              </div>
+              <form >
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                    placeholder="Informe seu e-mail">
+                </div>
+                <div class="form-group">
+                  <label for="email">Senha</label>
+                  <input type="password" name="password" id="password" class="form-control" aria-describedby="emailHelp"
+                    placeholder="Informe sua senha">
+                </div>
+                
+                <div class="col-md-12 text-center ">
+                  <button type="button" id="login" class=" btn btn-block mybtn btn-info tx-tfm">Entrar</button>
+                </div>
+                <div class="col-md-12 ">
+                  <div class="login-or">
+                    <hr class="hr-or">
+                    <span class="span-or">ou</span>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <p class="text-center">
+                    <button type="button" id="cadastrar" class="google btn mybtn"><i class="fa fa-google-plus">
+                      </i> Realizar cadastro 
+                    </button>
+                  </p>
+                </div> 
+              </form>
+
+            </div>
+          </div>
+          <div id="second">
+            <div class="myform form ">
+              <div class="logo mb-6">
+                <div class="col-md-12 text-center">
+                  <h1>Cadastrar</h1>
+                </div>
+              </div>
+              <form >
+                <div class="form-group">
+                  <label for="name">Nome</label>
+                  <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp"
+                    placeholder="Nome completo">
+                </div>
+                
+                <div class="form-group">
+                  <label for="name">E-mail</label>
+                  <input type="email" name="email" class="form-control" id="email-r" aria-describedby="emailHelp"
+                    placeholder="Informe seu e-mail">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Senha</label>
+                  <input type="password" name="password" id="password-r" class="form-control" aria-describedby="emailHelp"
+                    placeholder="Informe sua senha">
+                </div>
+                <div class="col-md-12 text-center mb-3">
+                  <button type="button" id="registrar" class=" btn btn-block mybtn btn-info tx-tfm">Registrar e entrar</button>
+                </div>
+                <div class="col-md-12 ">
+                  <div class="form-group">
+                    <p class="text-center"><a href="#"   id="logar">Já tenho uma conta</a></p>
+                  </div>
+                </div>
+            </div>
+            </form> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <script src="/src/js/autenticacao.js"></script>
+   
+
+</body>
+
+</html>

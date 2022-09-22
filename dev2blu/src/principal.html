@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Block COVID</title>
+
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="shortcut icon" href="/img/favico.png" type="image/png">
+  <script src="/src/js/jquery.js"></script>
+  <script src="/src/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="/src/css/bootstrap.css">
+  <link rel="stylesheet" href="/src/css/estilo_compartilhado.css">
+  <script src="/src/js/seguranca.js"></script>
+
+</head>
+
+
+<body class="container-fluid">
+
+  <nav class="navbar navbar-expand-lg text-light navbar-light bg-light  transparente">
+  </nav>
+
+
+  <h5 id="bem_vindo"></h5>
+  <div class="row">
+
+    <div class="col-12">
+
+      <div class="card">
+        <div class="card-header text-center bg-white">
+          <h5> Painel Coronavírus </h5>
+          <small id="atualizado"></small>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body  bg-white">
+                  <div class="row">
+                    <div class="col">
+                      <b>
+                        Brasil
+                      </b>
+                      <div class="row">
+                        <div class="col">
+                          <div class="borda alert-warning">
+
+                            <b>Casos</b>
+                            <br>
+                            <small id="confirmados">valor</small>
+                          </div>
+                        </div> 
+                        <div class="col">
+                          <div class="borda  alert-danger ">
+
+                            <b>Óbitos</b>
+                            <br>
+                            <small id="obitos">valor</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                   
+                    <div class="col">
+                      <b>
+                        Santa&nbsp;Catarina
+                      </b>
+                      <div class="row"> 
+
+                        <div class="col">
+                          <div class="borda alert-warning ">
+    
+                            <b>Casos</b>
+                            <br>
+                            <small id="confirmados-sc">valor</small>
+                          </div>
+                        </div>
+    
+    
+                        <div class="col">
+                          <div class="borda alert-danger ">
+    
+                            <b>Óbitos</b>
+                            <br>
+                            <small id="obitos-sc">valor</small>
+                          </div>
+                        </div>
+    
+                      </div>
+                    </div>
+                  </div>
+
+
+                 
+                  <br><br>
+                  <div class="row">
+                    <div class="col-12">
+                      <p>
+                        A Covid-19 é uma infecção respiratória aguda causada pelo coronavírus SARS-CoV-2,
+                        potencialmente
+                        grave, de elevada transmissibilidade e de distribuição global.
+                        <br>
+                        <a href="https://www.gov.br/saude/pt-br/coronavirus/o-que-e-o-coronavirus" target="_blank">Saiba
+                          mais</a>
+                      </p>
+                      <p>Procure atendimento médico se tiver febre, tosse e dificuldade para respirar. Ligue com
+                        antecedência para
+                        o órgão prestador de cuidados de saúde e peça direcionamento à unidade mais adequada. Isso
+                        protege você e
+                        evita a propagação de vírus e outras infecções.
+                      </p>
+                      <hr>
+                      <p>
+                        A COVID-19 afeta diferentes pessoas de diferentes maneiras. A maioria das pessoas infectadas
+                        apresentará sintomas leves a moderados da doença e não precisarão ser hospitalizadas.
+                      <ul>
+                        Sintomas mais comuns:
+                        <li>Febre</li>
+                        <li>Tosse</li>
+                        <li>Cansaço</li>
+                        <li>Perda de paladar ou olfato
+                        </li>
+                      </ul>
+                      </p>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12">
+
+                        <p>
+
+                          Para evitar a propagação da COVID-19, siga estas orientações:
+                        </p>
+                      </div>
+                    </div>
+
+                    <br>
+                    <div class="row text-center">
+                      <div class="col-sm-4 ">
+                        <img src="/img/wash_your_hands.png" width="64px">
+                        <br>
+                        <b>Lavar as mãos</b>
+                        <br>
+                        Limpe as mãos com frequência.
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="/img/antibacterial_gel.png" class="rounded-circle" width="64px">
+                        <br>
+                        <b>Usar álcool em gel </b>
+                        <br>
+                        usar álcool em gel mata os vírus que podem estar nas suas mãos.
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="/img/keep_distance.png" width="64px">
+                        <br>
+                        <b> Distanciamento social</b>
+                        <br>
+                        Mantenha uma distância segura de outras pessoas (pelo menos 1 metro), mesmo que elas não pareçam estar doentes.
+                      </div>
+                      
+                      <div class="col-sm-4">
+                        <img src="/img/vaccines.png" width="64px">
+                              <br>
+                              <b> Vacina </b>
+                              <br>
+                              Tome a vacina quando chegar a sua vez. Siga as orientações locais para isso.
+                          
+                      </div>
+
+                      <div class="col-sm-4">
+                        <img src="/img/cough.png" width="64px">
+                              <br>
+                              <b> Cubra o nariz </b>
+                              <br>
+                              Cubra o nariz e a boca com o braço dobrado ou um lenço ao tossir ou espirrar.
+                           </div>
+
+                      <div class="col-sm-4">
+                        <img src="/img/mask.png" width="64px">
+                        <br>
+                        <b> Usar máscara </b>
+                        <br>
+                        Use máscara em público, especialmente em locais fechados ou quando não for possível
+                        manter o
+                        distanciamento físico
+                      </div>
+ 
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <hr>
+                      <h5>Fique informado</h5>
+
+                      <p>Confira as últimas notícias sobre as áreas mais perigosas (ou seja, as cidades e lugares
+                        onde
+                        a doença
+                        está se espalhando mais amplamente). Se possível, evite se deslocar para essas áreas,
+                        especialmente se
+                        você é idoso ou tem diabetes, doenças cardíacas ou pulmonares.
+                        Por quê? Essas precauções devem ser tomadas nessas áreas, porque a probabilidade de contrair
+                        COVID-19 é
+                        maior.</p>
+
+
+                      <div class="col-12 text-center"> 
+                        <br><br><br><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <br><br>
+
+
+  <div class="footer bg-light">
+
+    <img src="/img/logo_login.png" height="70px">
+    <br>
+    <b>Desenvolvido por : Equipe parque spitzkopf</b>
+
+  </div>
+  <script src="/src/js/menu.js"></script>
+
+  <script>
+
+
+    $('#bem_vindo').text('Bem vindo(a), ' + usuario.name);
+
+    $.ajax(           //requisição AJAX com JQUERY
+      {               //configurando objeto que será utilizado para a chamada de API
+        type: 'get',  //tipo de conexão GET  (utilizado para obter dados sem realizar alterações no lado servidor)
+        url: 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalGeralApi',// url onde é esperado obter informações
+        success: (response) => {      //configurando um evento que aguarda a conexão no caso de sucesso, para fazer o que estiver aqui
+          console.log(response);      //logar no console o retorno ajuda a saber o modelo de dados retornado
+
+          //com base no retorno JSON o valor no elemento com id 'confirmados' e converto o valor para uma mascara numerica
+          $("#confirmados").text(formatarBigDecimal(response.confirmados.total))
+
+          //com base no retorno JSON o valor no elemento com id 'obitos' e converto o valor para uma mascara numerica
+          $("#obitos").text(formatarBigDecimal(response.obitos.total))
+
+          // com base no retorno do JSON o valor no elemento com ID 'atualizado' 
+          let atualizado = new Date(response.dt_updated)
+          $("#atualizado").text('Atualizado em: ' + atualizado.toLocaleDateString() + ' -  ' + atualizado.getHours() + ":" + atualizado.getMinutes())
+
+        },
+        error: (erro) => { //configurando um evento que aguarda a conexão no caso de sucesso, para fazer o que estiver aqui
+          console.error(); (erro); //logar no console o retorno ajuda a saber o modelo de dados retornado
+        }
+      }
+    );
+
+    $.ajax(               //requisição AJAX com JQUERY
+      {                   //configurando objeto que será utilizado para a chamada de API
+        url: 'https://xx9p7hp1p7.execute-api.us-east-1.amazonaws.com/prod/PortalEstado', // url onde é esperado obter informações
+        type: 'get',      //tipo de conexão GET  (utilizado para obter dados sem realizar alterações no lado servidor)
+        success:          //configurando um evento que aguarda a conexão no caso de sucesso, para fazer o que estiver aqui
+          (response) => {
+            console.log(response)       //logar no console o retorno ajuda a saber o modelo de dados retornado
+            console.log(response[6].casosAcumulado);
+            $('#confirmados-sc').text(formatarBigDecimal(response[6].casosAcumulado.toString()))
+            $('#obitos-sc').text(formatarBigDecimal(response[6].obitosAcumulado.toString()))
+
+          },
+        error:
+          (erro) => {
+            console.warn(erro)
+          }
+
+      }
+    )
+
+    function formatarBigDecimal(valor) {              //função utilitária que recebe um numero e formata com caracteres numericos como (,)
+      return valor.replace(/(.)(?=(\d{3})+$)/g, '$1.')//regex (expressão regular que faz essa formatação)
+      //para cada grupo de 3 caracteres será inserido (.)
+    }
+
+  </script>
+
+
+</body>
+
+</html>
